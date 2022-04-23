@@ -1,0 +1,510 @@
+﻿Sr.,Questions:,O1,O2,O3,O4,Correct,Domain
+1,"Cloud ________ consists of hardware and software components such as data storage, server, virtualization software, etc.",infrastructure,ecosystem,atmosphere,model,infrastructure,Cloud
+2,____ is a form of cloud computing that provides virtualized computing resources over the internet.,IaaS,SaaS,PaaS,TaaS,IaaS,Cloud
+3,____ is a software licensing and delivery model in which software is licensed on a subscription basis and is centrally hosted.,SaaS,IaaS,PaaS,TaaS,SaaS,Cloud
+4,"____ permits developers to build, test, debug, deploy, host, and update their applications all in the same environment.",PaaS,SaaS,IaaS,TaaS,PaaS,Cloud
+5,______ in cloud computing is the ability to quickly and easily increase or decrease the size or power of an IT solution.,Scalability,Expanding,Promotion,Marketing,Scalability,Cloud
+6,_______ is open source software for building AWS-compatible private and hybrid clouds.,Eucalyptus,OpenStack,NextCloud,Apache CloudStack,Eucalyptus,Cloud
+7,"A systems _______ is an individual or business that builds computing systems for clients by combining hardware, software, networking and storage products from multiple vendors.",integrator,merger,inserter,builder,integrator,Cloud
+8,_______ is an open source cloud computing infrastructure software project and is one of the three most active open source projects in the world.,OpenStack,Eucalyptus,NextCloud,Apache CloudStack,OpenStack,Cloud
+9,_____ make the platform extensible which can lead to a rich feature set.,APIs,Sets,Scalability,Expansion,APIs,Cloud
+10,"_____ is a cloud computing service created by Microsoft for building, testing, deploying, and managing applications and services through Microsoft-managed data centers.",Azure,OpenStack,NextCloud,Apache CloudStack,Azure,Cloud
+11,_________ separates the back-end level and user level for creation of a seamless environment between the two.,Virtualization,Mirroring,VM,Separator,Virtualization,Cloud
+12,________ is a programming language that compiles to JavaScript.,CoffeeScript,Python,Ruby,Swift,CoffeeScript,CoffeeScript
+13,CoffeeScript was released in the year ____.,2009,2010,2011,2008,2009,CoffeeScript
+14,"Unlike JavaScript, while creating a variable in CoffeeScript, there is no need to declare it using the ___ keyword.",var,int,char,varchar,var,CoffeeScript
+15,"In CoffeeScript, we define only ______ expressions.",function,arithematic,single,double,function,CoffeeScript
+16,"_____ are tools that read source code written in one programming language, and produce the equivalent code in another language.",Transpilers,Splats,Transporters,Transversers,Transpilers,CoffeeScript
+17,How man logical operators does CoffeScript support?,3,2,4,5,3,CoffeeScript
+18,How many languages have inspired CoffeeScript?,3,4,5,6,3,CoffeeScript
+19,The ______ keyword is not used in CoffeeScript.,function,char,int,varchar,function,CoffeeScript
+20,CoffeeScript includes all the useful features of ____., JavaScript,C++,AL,Swift, JavaScript,CoffeeScript
+21,"In CoffeeScript, we can easily concatenate two strings by using __ operator between the two strings.",+,_,?,_?,+,CoffeeScript
+22,The CoffeeScript provides a feature known as string ______ used to include variables in the string.,interpolation,insertion,varchar,var,interpolation,CoffeeScript
+23,You can use CoffeeScript's destructuring assignment syntax to _____ variables using the array.,swap,add,subtract,multiply,swap,CoffeeScript
+24,You can map an array in the object by using _____ with an anonymous function in CoffeeScript.,map(),arr(),char(),split(),map(),CoffeeScript
+25,"You can use the existential assignment operator ____ to create and delete the missing function in CoffeeScript.
+
+",(?=),(=?),((=?)),)=?(,(?=),CoffeeScript
+26,The main difference between copying an object through assignment and clone-function is the way they handle _______.,references,links,data,mirroring,references,CoffeeScript
+27,"In CoffeeScript, a tool is required to translate/ convert CoffeeScript codes into JavaScript. This tool is known as _______.",transpilers,splats,interpretor,conversion,transpilers,CoffeeScript
+28,The CoffeeScript was designed and developed by _________.,Jeremy Ashkenas,Jeremy Clarkson,Jonathan Trott,James Charles,Jeremy Ashkenas,CoffeeScript
+29,CoffeeScript interpolates _____ in similar fashion to ruby.,strings,characters,variables,varchar,strings,CoffeeScript
+30,String concatenation means ___ strings together.,add,multiply,negate,subtract,add,CoffeeScript
+31,The ______ object lets you work with a series of characters.,String,char,insert ,variable,String,CoffeeScript
+32,CoffeeScript provides a feature called ____ to pass multiple arguments to functions.,splats,split,insert,multipass,splats,CoffeeScript
+33,Java is platform-______.,independent,dependent,based,featured,independent,Java
+34,The syntax of Java is based on ___ which makes easier to write the program in it., C++,AL,Python,C, C++,Java
+35,JVM is an acronym for ________.,Java Virtual Machine,Java Vision Machine,Java Virtual Mode,Java Vision Mode,Java Virtual Machine,Java
+36,JRE stands for _______.,Java Runtime Environment,Java Run Environment,Java Runtime Essence ,Java Run Essence,Java Runtime Environment,Java
+37,JDK is an acronym for _________.,Java Development Kit,Java Develop Kit,Java Data Kit,Java Databse Kit,Java Development Kit,Java
+38,"___ compiles parts of the bytecode that have similar functionality at the same time, and hence reduces the amount of time needed for compilation.",JIT,JDK,JRE,JVM,JIT,Java
+39,_______ is a subsystem of JVM which is used to load class files.,Classloader,Classesloader,Cloader,CL,Classloader,Java
+40,Java allows to save our java file by ____ only., .java,.jv,.j,.jav, .java,Java
+41,________ is a mechanism by which one object acquires all the properties and behavior of another object of another class.,Inheritance,adoption,Transformation,Insertion,Inheritance,Java
+42,Aggregation is best described as a ____ relationship.,has-a,is-a,was-a,be-a,has-a,Java
+43,The _____ is a variable that refers to the memory address.,pointer,int,long,complex,pointer,Java
+44,The _____ keyword in Java is a reference variable that is used to refer to the immediate parent class object.,super,inheritance,Insertion,Adoption,super,Java
+45,The object ______ is used to create the exact copy of an object.,cloning,mirroring,twinning,copying,cloning,Java
+46,Method _______ is the polymorphism technique which allows us to create multiple methods with the same name but different signature.,overloading,loading,feeding,underloading,overloading,Java
+47,Method ______ increases the readability of the program.,overloading,overriding,loading,underloading,overloading,Java
+48,Method _______ provides the specific implementation of the method that is already provided by its superclass.,overriding,overloading,loading,underloading,overriding,Java
+49,"In Java, the _____ variable is used to restrict the user from updating it.",final,last,update,lock,final,Java
+50,"______ in Java is a condition where two or more threads are blocked forever, waiting for each other.",Deadlock,Blockade,Locking,Blockage,Deadlock,Java
+51,_____ scheduler in java is the part of the JVM that decides which thread should run.,Thread,Files,Data,String,Thread,Java
+52,_____ allows a program to operate more efficiently by doing multiple things at the same time.,Threads,Cookies,Strings,Multi-tasking,Threads,Java
+53,"____ condition in Java occurs in a multi-threaded environment when more than one thread try to access a shared resource (modify, write) at the same time.",Race,Run,Loop,Multi-threading,Race,Java
+54,The Java _____ keyword is intended to address variable visibility problems.,volatile,void,delete,return,volatile,Java
+55,Java Thread ____ represents a group of worker threads that are waiting for the job and reuse many times.,pool,group,team,environment,pool,Java
+56,"_____ is an open source, next generation client application platform for desktop, mobile and embedded systems built on Java.",JavaFX,OpenStack,NextCloud,Java+,JavaFX,Java
+57,The ____ API in Java provides a feature known as an executor that initiates and controls the execution of threads.,concurrent,XML,JDPC,JDK,concurrent,Java
+58,"______ represents a queue which is thread safe to put elements into, and take elements out of from.",BlockingQueue,Package,In line,Edition,BlockingQueue,Java
+59,"If a producer thread tries to put an element in a full _______, it gets blocked and stays blocked until a consumer removes an element.
+",BlockingQueue,Package,In line,Edition,BlockingQueue,Java
+60,____ is a Java API to connect and execute the query with the database.,JDBC,XML,JDK,JRE,JDBC,Java
+61,The Java ExecutorService is the interface which allows us to execute tasks on threads ______.,asynchronously,synchronously,simultaneously,easily,asynchronously,Java
+62,The ______ object returns a Future object which provides methods to monitor the progress of a task being executed by a thread.,Callable,Return,MON,EXE,Callable,Java
+63,The _____ class represents a future result of an asynchronous computation,future,prediction,ahead,result,future,Java
+64,The  class keeps track of the available JDBC drivers and creates database connections for you.,DriverManager,Connection,ResultSet,Statement,DriverManager,Java
+65,The ______ interface represents the core of the JDBC API.,Connection,DriverManager,ResultSet,Statement,Connection,Java
+66,_____ is a fun and flexible programming language.,JavaScript,C,Python,Ruby,JavaScript,Java
+67,The Java programming language was developed by .,Sun Microsystems,Microsoft,IBM,Apple,Sun Microsystems,Java
+68,How many types of memory areas are allocated by JVM?,5,4,3,2,5,Java
+69,The Java programming language uses the compiler named _____.,javac,havac,JT,Java+,javac,Java
+70,The Java ______ is a part of the Java Runtime Environment that dynamically loads Java classes into the Java Virtual Machine.,ClassLoader,Loader,Jclass,JVM Loader,ClassLoader,Java
+71,Java applications are called WORA where WORA stands for _____.,Write Once Run Anywhere,Write Once Run Alone,Write Once Restrict All,Written Once Run Anywhere,Write Once Run Anywhere,Java
+72,Java _____ class represents the files and directory pathnames in an abstract manner.,File,Files,Folder,Directory,File,Java
+73,The ______ method deletes the file or directory denoted by the abstract pathname.,delete(),empty(),null(),void(),delete(),Java
+74,____ is a keyword and used to specify that a method doesn't return anything.,Void,Null,Empty,Return,Void,Java
+75,Java provides ___ types of access modifiers or visibility specifiers,four,three,five,six,four,Java
+76,______ methods are the methods in Java that can be called without creating an object of class.,Static,un-static,overriding,overloading,Static,Java
+77,A _____ in Java is used to group related classes.,package,grouper,loader,merger,package,Java
+78,How many types of constructors are used in Java?,two types,one type,three types,four types,two types,Java
+79,"The ______ constructor is used to provide the default values to the object like 0, null, etc., depending on the type.",default,custom,base,def,default,Java
+80,Java was first released in ____.,1995,1991,1994,1999,1995,Java
+81,"In Java, a _____ constructor is a special type of constructor that creates an object using another object of the same Java class.",copy,clone,twinning,mirroring,copy,Java
+82,A _______ in Java is a special method that is used to initialize objects.,constructor,maker,loader,intializer,constructor,Java
+83,The _____ variable can be used to refer to the common property of all objects (which is not unique for each object).,static,un-static,overriding,overloading,static,Java
+84,The _____ method cannot use non-static data member or invoke non-static method directly.,static,un-static,constant,overloading,static,Java
+85,In the following which the instance made by oracle?,Data processes,Oracle background processes,Memory processes,all of these,Oracle background processes,Oracle
+86,In dynamic data replication which of the following database is used for oracle,DBMS,DBA,DBMA,none of these,DBA,Oracle
+87,"When a ROLLBACK statement is issued to the database, the transaction has ended, which of the following is true.",all work done by the transaction is undone as if it had not been issued.,Any locks acquired by the transaction are released.,all work done by the transaction is done.,A&B both,A&B both,Oracle
+88,When the SQL statement is finished which of the following segment is destroyed?,Object Segment,Temporary Segment,Data Segment,None of these,Temporary Segment,Oracle
+89,In oracle we can create SNAPSHOT LOG for[DBA].,complex snapshot,destroyable snapshot,Simple snapshot,A&B both,Simple snapshot,Oracle
+90,By the help of PL/SQL expression reconstructed using?,HTP,HTTP,FTP,A&C both,A&C both,Oracle
+91,Which of the following is the use of index?,simply the user’s perception of the data,retrieve data more quickly and efficiently,retrieve data more quickly,none of these,retrieve data more quickly and efficiently,Oracle
+92,"After creating the chain object with CREATE_CHAIN, you define chain steps and chain rules separately. What is the correct argument which is set to NULL?",Evaluation_interval,Define_chain_step,Define_chain_event,Schedules,Evaluation_interval,Oracle
+93,"In a distributed database environment, while coordinating with the database administrator to determine the best location for the data, which of these issues will be considered?
+",Number of transactions posted from each location,Amount of data (portion of table) used by each node,Performance characteristics and reliability of the network,All mentioned above,All mentioned above,Oracle
+94," In ALTER TABLE Maintenance Operations for Table Partitions which maintenance operation partition is used by range, hash, list, composite(range/hash), composite(range/list) from the following?",Coalescing Partitions,Dropping Partitions,Adding partitions,Adding partitions,Both A & B,Oracle
+95,While considering Costs and Benefits of Coalescing or Rebuilding Indexes which has lower costs and does not require more disk space?,Coalesce Index,Rebuild Index,Both A & B,None of the above,Coalesce Index,Oracle
+96,Which parameter uses all MANDATORY destinations plus some number of non-standby OPTIONAL destinations to determine whether LGWR can overwrite the online log?,LOG_ARCHIVE_DEST_n,LOG_ARCHIVE_MIN_SUCCEED_DEST=n,Both A & B,None of the above,LOG_ARCHIVE_MIN_SUCCEED_DEST=n,Oracle
+97,What is the minimum size permitted for a redo log file?,10 MB,6 MB,8 MB,4 MB,4 MB,Oracle
+98,A _____________ is a database object existing on multiple servers in a distributed database system.,Replication object,replica object,replication groups,Both A and C,Replication object,Oracle
+99,"Which DBA System Privilege used for the operations authorized for drops a table in any schema?
+",CREATE USER,DROP USER,BACKUP ANY TABLE,DROP ANY TABLE,DROP ANY TABLE,Oracle
+100,Which parameter specifies the exported file containing the metadata for the tablespaces to be imported?,TRANSPORT_DATAFILES,DUMPFILE,DIRECTORY,REMAP_SCHEMA,DUMPFILE,Oracle
+101,"Applications should always _____________ commit or roll back transactions before program termination.
+",Implicitly,Explicitly,Either of a and b,None of the above,Explicitly,Oracle
+102,A synonym is an alias for which object?,Schema,Segment,Extents,Rollback Segments,Schema,Oracle
+103,Which of the following conditions are true when you choose the appropriate tables for the Cluster?,"The tables are primarily queried--that is, tables that are not predominantly inserted into or updated",Records from the tables are frequently queried together or joined,Records from the tables are not frequently queried together or joined,Both A & B,Both A & B,Oracle
+104,Edit the CONTROL_FILES parameter in the database initialization parameter file to delete the old control file name.,Creating Initial Control Files,"Creating Additional Copies, Renaming, and Relocating Control Files",Creating New Control Files,Dropping Control Files,Dropping Control Files,Oracle
+105,"Which initialization parameter is a dynamic parameter that lets you specify or adjust the size of the large pool component of the SGA?
+",STREAMS_POOL_SIZE,JAVA_POOL_SIZE,LARGE_POOL_SIZE,SHARED_POOL_SIZE,LARGE_POOL_SIZE,Oracle
+106,"Which view shows “completed window runs” in viewing the scheduler information?
+",*_scheduler_windows,*_scheduler_window_log,*_scheduler_window_details,*_scheduler_window_groups,*_scheduler_window_details,Oracle
+107,Which view shows that all the jobs or both enabled and disabled?,*_SCHEDULER_JOBS,*_SCHEDULER_JOB_ROLES,*_SCHEDULER_PROGRAMS,*_SCHEDULER_JOB_RUN_DETAILS,*_SCHEDULER_JOBS,Oracle
+108,"A set of databases in a distributed system that can appear to applications as a single data source known as ________.
+",Distributed database,Distributed processing,Both A & B,None of the above,Distributed database,Oracle
+109,Which transaction contains statements that access more than one node?,A Remote Transaction,A Distributed transaction,Both A & B,None of the above,A Distributed transaction,Oracle
+110,Which modes are used for transmitting archived logs to their destination in  the Specifying Mode of Log Transmission?,Normal archiving transmission,Standby transmission,Both A & B,None of the above,Both A & B,Oracle
+111,Which view identifies redo log groups and members and member status in the Redo Log Information?,V$LOG,V$LOGFILE,V$LOG_HISTORY,None of the above,V$LOGFILE,Oracle
+112,Which view shows the state of information on all jobs that are currently being run in the viewing Scheduler information?,*_scheduler_running_jobs,*_scheduler_job_run_details,*_scheduler_windows,*_scheduler_job_classes,*_scheduler_running_jobs,Oracle
+113,"In Run Scripts to build data dictionary views which script Creates the views of the data dictionary tables, the dynamic performance views, and public synonyms for many of the views, Grants PUBLIC access to the synonyms?",CATALOG.SQL,CATPROC.SQL,Both A & B,None of the above,CATALOG.SQL,Oracle
+114,Which view would you query at this stage to investigate this missing control file?,V$INSTANCE,V$CONTROLFILE,DBA_CONTROL_FILES,V$DATABASE_PROPERTIES,V$CONTROLFILE,Oracle
+115,Abbreviate the term CSS?,Command Synchronization Services,Cluster Synchronization Services,Command Synchronization Statement,Cluster Synchronization Statement,Cluster Synchronization Services,Oracle
+116,In oracle the overall structure of the database is maintained in file called?,roiling files,control files,redolog file,B&C both,control files,Oracle
+117,Use of context in oracle is?,store rollback information used when data must be reload back,store user data within database,minimize the amount of wasted (empty) storage,All of these,minimize the amount of wasted (empty) storage,Oracle
+118,"In oracle, the following is used to declare the record.",function,procedure,A&B both,package,function,Oracle
+119,The LGWR is used to writes information into?,control files,redo log files,database files,none of these,redo log files,Oracle
+120,The following component comprise an oracle architecture?,datafiles,tablespace,data related background,All of these,All of these,Oracle
+121,For displaying the output on the webpage which of the following method are used?,%ROWTYPE,%ROWCOL,%COL,none of these,%ROWTYPE,Oracle
+122,In [DBA] transaction per rollback is derived in,DB-block-buffers,shared pool size,process,none of these,process,Oracle
+123,Character data can be stored as ______________,Fixed length string,Variable length string,Either Fixed or Variable length string,None of the mentioned,Either Fixed or Variable length string,MySQL
+124,Which declaration represents that “character data will consume the same number of bytes as declared and is right padded”?,Char,Varchar,Both Char and Varchar,None of the mentioned,Char,MySQL
+125,Which among the following have the maximum bytes?,Varchar,Char,Text type,Both Varchar and Char,Text type,MySQL
+126,Which of the following characters is illegal in naming an unquoted identifier in SQL?,_,$,2,.,.,MySQL
+127,How are identifiers quoted in MySQL?,single quotes,double quotes,backticks,can’t be quoted,backticks,MySQL
+128,Which of the following is an illegal unquoted identifier name?,123_id,123id,id1,123,123,MySQL
+129,Which server mode value enables use of double quotes to wrap identifier names?,ANSI,ANSI_QUOTES,TRADITIONAL,PIPES_AS_CONCAT,ANSI_QUOTES,MySQL
+130,Which server mode value disables use of built in function names as identifiers?,ANSI,IGNORE_FUNC,TRADITIONAL,IGNORE_SPACE,IGNORE_SPACE,MySQL
+131,What is the maximum length for alias names in terms of characters?,64,128,256,32,256,MySQL
+132,What does a fully qualified table name consist of?,only the table name,only the database name,table name followed by database name,database name followed by table name,database name followed by table name,MySQL
+133,Which “text type” has the maximum number of bytes?,Tiny text,Text,Medium text,Long text,Long text,MySQL
+134,Which one is the correct declaration for choosing the character set other than default?,Varchar(20) character set utf8;,Varchar(20);,Varchar(20) character set;,None of the mentioned,Varchar(20) character set utf8;,MySQL
+135,"Mysql support different character sets, which command is used to display all character sets?",SHOW CHARACTER SET;,SHOW;,CHARACTER SET;,None of the mentioned,SHOW CHARACTER SET;,MySQL
+136,In oracle database variable length column is declared by ____________,Varchar,Varchar 3,Varchar2,None of the mentioned,Varchar2,MySQL
+137,The maximum length of the varchar columns is ____________,"Upto 65, 535 bytes",Upto 256 bytes,"Upto 65, 567 bytes",None of the mentioned,"Upto 65, 535 bytes",MySQL
+138,The maximum length of the char columns is ____________,255 bytes,"65, 535 bytes",256 bytes,None of the mentioned,255 bytes,MySQL
+139,Which declaration doesn’t use the same number of bytes and consumption of bytes depends on the input data?,Varchar,Char,Both Varchar and Char,None of the mentioned,Varchar,MySQL
+140,Android is licensed under which open source licensing license?  ,Gnu's GPL,Apache/MIT ,OSS,Sourceforge,Apache/MIT ,Android
+141,"Although most people's first thought when they think of Android is Google, Android is not actually owned by Google. Who owns the Android platform?  ",Oracle Technology,Dalvik,Open Handset Alliance,The above statement is  and Android is owned by Google ,Open Handset Alliance ,Android
+142,"As an Android programmer, what version of Android should you use as your minimum development target?",Versions 1.6 or 2.0 ,Versions 1.0 or 1.1,Versions 1.2 or 1.3 ,Versions 2.3 or 3.0,Versions 1.6 or 2.0 ,Android
+143,What was Google's main business motivation for supporting Android?,To level the playing field for mobile devices,To directly compete with the iPhone,To corner the mobile device application market for licensing purposes,To allow them to advertise more ,To allow them to advertise more ,Android
+144,What year was development on the Dalvik virtual machine started?,2003 ,2005,2007,2006,2005,Android
+145,"When developing for the Android OS, Java byte code is compiled into what? ",Java source code,Dalvik application code,Dalvik byte code ,C source code,Dalvik byte code ,Android
+146,What does the .apk extension stand for?,Application Package,Application Program Kit,Android Proprietary Kit ,Android Package,Application Package ,Android
+147,How does Google check for malicious software in the Android Market?,Every new app is scanned by a virus scanner,Users report malicious software to Google ,Google employees verify each new app ,A seperate company monitors the Android Market for Google,Users report malicious software to Google,Android
+148,Which of these are not one of the three main components of the APK?,Dalvik Executable ,Resources,Native Libraries,Webkit ,Webkit ,Android
+149,What is the name of the program that converts Java byte code into Dalvik byte code?,Android Interpretive Compiler (AIC),Dalvik Converter,Dex compiler ,Mobile Interpretive Compiler (MIC),Dex compiler,Android
+150,What was the main reason for replacing the Java VM with the Dalvik VM when the project began?  ,There was not enough memory capability,Java virtual machine was not free ,Java VM was too complicated to configure,Java VM ran too slow,Java virtual machine was not free ,Android
+151,Android Applications must be signed.,After they are installed ,Before they are installed ,Never,Within two weeks of installation,Before they are installed ,Android
+152,Which of the following are not a component of an APK file?,Resources,All of these are components of the APK,Native Libraries ,Dalvik executable,All of these are components of the APK ,Android
+153,What is contained within the manifest xml file?,The permissions the app requires,The list of strings used in the app,The source code,All other choices,The permissions the app requires,Android
+154,What is contained within the Layout xml file?,Orientations and layouts that specify what the display looks like.,The permissions required by the app.,The strings used in the app.,The code which is compiled to run the app.,Orientations and layouts that specify what the display looks like.,Android
+155,The Emulator is identical to running a real phone EXCEPT when emulating/simulating what?,Telephony,Applications,Sensors,The emulator can emulate/simulate all aspects of a smart phone.,Sensors,Android
+156,The R file is a(an) generated file,Automatically ,Manually ,Emulated,None of the above,Automatically,Android
+157,An activity can be thought of as corresponding to what? ,A Java project,A Java class,A method call,An object field,A Java class,Android
+158,"To create an emulator, you need an AVD. What does it stand for?",Android Virtual Display,Android Virtual Device ,Active Virtual Device ,Application Virtual Display,Android Virtual Device,Android
+159,The ________ file specifies the layout of your screen.,Layout file,Manifest file,Strings XML,R file,Layout file,Android
+160,What is the driving force behind an Android application and that ultimately gets converted into a Dalvik executable?,Java source code.,R-file.,the emulator.,the SDK,Java source code.,Android
+161,The XML file that contains all the text that your application uses.,stack.xml,text.xml,strings.xml ,string.java,strings.xml,Android
+162,"Which of the following is the most ""resource hungry"" part of dealing with Activities on Android.",Closing an app,Suspending an app,Opening a new app,Restoring the most recent app,Opening a new app ,Android
+163,What runs in the background and doesn't have any UI components?,Intents,Content Providers,Services ,Applications,Services ,Android
+164,What operating system is used as the base of the Android stack?,Linux,Windows,Java,XML,Linux,Android
+165,Android is based on Linux for the following reason.,Security,Portability,Networking,All of these ,All of these ,Android
+166,Which among these are NOT a part of Android's native libraries?,Webkit,Dalvik ,OpenGL,SQLite,Dalvik,Android
+167,Which piece of code used in Android is not open source?,Keypad driver,WiFi? driver,Audio driver,Power management ,WiFi? driver,Android
+168,Which Android version had the greatest share of the market as of January 2011?,1.1,1.5,2.3,3.4,1.5,Android
+169,Which one is not a nickname of a version of Andriod?,cupcake,Gingerbread,Honeycomb,Muffin ,Muffin ,Android
+170,Android releases since 1.5 have been given nicknames derived how?,Adjective and strange animal,Food,Something that starts w/ 'A' -> Something that starts w/ 'B',American states,Food ,Android
+171,When did Google purchase Android?,2007,2005 ,2008,2010,2005,Android
+172,What part of the Android platform is open source? ,low-level Linux modules,application frame work ,native libraries,all of these answers,all of these answers,Android
+173,"Android tries hard to __________   low-level components, such as the software stack, with interfaces so that vendor-specific code can be managed easily. ",confound,absract ,modularize,compound,absract ,Android
+174,What year was the Open Handset Alliance announced?  ,2005,2006,2007 ,2008 ,2007 ,Android
+175,What is a funny fact about the start of Android?,It was orginaly going to be called UFO,The first version of Android was released without an actual phone on the market,Androids main purpose was to unlock your car door when you left the keys inside of it. ,Was going to be a closed source application to make more money for its company.,The first version of Android was released without an actual phone on the market ,Android
+176,"From a phone manufacturer's point of view, what makes Android so great?","Aside from some specific drivers, it provides everything to make a phone work ",It makes the hardware work better,It allows them to compete with Apple's iPhone,"It allows users to create apps, generating revenue for the companies","Aside from some specific drivers, it provides everything to make a phone work",Android
+177,What was the first phone released that ran the Android OS?  ,Google gPhone,T-Mobile G1 ,Motorola Droid,HTC Hero ,T-Mobile G1 ,Android
+178,Is Python case sensitive when dealing with identifiers?,yes,no,machine dependent,none of the mentioned,yes,Python
+179,What is the maximum possible length of an identifier?,31 characters,63 characters,79 characters,none of the mentioned,none of the mentioned,Python
+180,Which of the following is invalid?,_a = 1,__a = 1,__str__ = 1,none of the mentioned,none of the mentioned,Python
+181,Which of the following is an invalid variable?,my_string_1,1st_string,foo,_,1st_string,Python
+182,Which of the following is not a keyword?,eval,assert,nonlocal,pass,eval,Python
+183,What is the output of print 0.1 + 0.2 == 0.3?,TRUE,FALSE,Machine dependent,Error,FALSE,Python
+184,Which of the following is not a complex number?,k = 2 + 3j,"k = complex(2, 3)",k = 2 + 3l,k = 2 + 3J,k = 2 + 3l,Python
+185,What is the type of inf?,Boolean,Integer,Float,Complex,Float,Python
+186,What does ~4 evaluate to?,-5,-4,-3,3,-5,Python
+187,What does ~~~~~~5 evaluate to?,5,-11,11,-5,5,Python
+188,Which of the following is incorrect?,x = 0b101,x = 0x4f5,x = 19023,x = 03964,x = 03964,Python
+189,"What is the result of cmp(3, 1)?",1,0,TRUE,FALSE,1,Python
+190,Which of the following is incorrect?,float(‘inf’),float(‘nan’),float(’56’+’78’),float(’12+34′),float(’12+34′),Python
+191,What is the result of round(0.5) – round(-0.5)?,1,2,0,Value depends on Python version,Value depends on Python version,Python
+192,What does 3 ^ 4 evaluate to?,81,12,0.75,7,7,Python
+193,Which of the following functions can help us to find the version of python that we are currently working on?,sys.version,sys.version(),sys.version(0),sys.version(1),sys.version,Python
+194,Which of the following functions is not defined under the sys module?,sys.platform,sys.path,sys.readline,sys.argv,sys.readline,Python
+195,The output of the function len(sys.argv) is ____________,Error,1,0,Junk value,1,Python
+196,"To obtain a list of all the functions defined under sys module, which of the following functions can be used?",print(sys),print(dir.sys),print(dir[sys]),print(dir(sys)),print(dir(sys)),Python
+197,Which of the following is not a type of inheritance?,Double-level,Multi-level,Single-level,Multiple,Double-level,Python
+198,What does built-in function help do in context of classes?,Determines the object name of any value,Determines the class identifiers of any value,Determines class description of any built-in type,Determines class description of any user-defined built-in type,Determines class description of any built-in type,Python
+199,The function of re.search is __________,Matches a pattern at the start of the string,Matches a pattern at the end of the string,Matches a pattern from any part of a string,Such a function does not exist,Matches a pattern from any part of a string,Python
+200,Which of the following functions creates a Python object?,re.compile(str),re.assemble(str),re.regex(str),re.create(str),re.compile(str),Python
+201,Which of the following pattern matching modifiers permits whitespace and comments inside the regular expression?,re.L,re.S,re.U,re.X,re.X,Python
+202,The function of re.match is ____________,Error,Matches a pattern anywhere in the string,Matches a pattern at the end of the string,Matches a pattern at the start of the string,Matches a pattern at the start of the string,Python
+203,"The special character \B matches the empty string, but only when it is _____________",at the beginning or end of a word,not at the beginning or end of a word,at the beginning of the word,at the end of the word,not at the beginning or end of a word,Python
+204,"Which of the following special characters represents a comment (that is, the contents of the parenthesis are simply ignores)?",(?:…),(?=…),(?!…),(?#…),(?#…),Python
+205,Which of the codes shown below results in a match?,"re.match(‘George(?=Washington)’, ‘George Washington’)","re.match(‘George(?=Washington)’, ‘George’)","re.match(‘George(?=Washington)’, ‘GeorgeWashington’)","re.match(‘George(?=Washington)’, ‘Georgewashington’)","re.match(‘George(?=Washington)’, ‘GeorgeWashington’)",Python
+206,Which one of the following has the highest precedence in the expression?,Exponential,Addition,Multiplication,Parentheses,Parentheses,Python
+207,Which one of the following has the same precedence level?,Addition and Subtraction,"Multiplication, Division and Addition","Multiplication, Division, Addition and Subtraction",Addition and Multiplication,Addition and Subtraction,Python
+208,"What is the output of this expression, 3*1**3?",27,9,3,1,3,Python
+209,Operators with the same precedence are evaluated in which manner?,Left to Right,Right to Left,Can’t say,None of the mentioned,Left to Right,Python
+210,"What is the answer to this expression, 22 % 3 is?",7,1,0,5,1,Python
+211,Which one of these is floor division?,/,//,%,None of the mentioned,//,Python
+212,Which is the correct operator for power(xy)?,X^y,X**y,X^^y,None of the mentioned,X**y,Python
+213,Which of the following cannot be a variable?,__init__,in,it,on,in,Python
+214,Which of the following is an invalid statement?,"abc = 1,000,000+G246C215:G249C215:G250C215:G249C215C215:G240",a b c = 1000 2000 3000,"a,b,c = 1000, 2000, 3000","a_b_c = 1,000,000",a b c = 1000 2000 3000,Python
+215,All keywords in Python are in _________,lower case,UPPER CASE,Capitalized,None of the mentioned,None of the mentioned,Python
+216,Class which represents a real-world entity and its instances will be persisted to a database.,entity,persistent,all of the mentioned,none of the mentioned,all of the mentioned,ORM
+217,"To allow the identifier to be null, you should choose a primitive wrapper type:-",java.lang.Integer,java.lang.Long,all of the mentioned,none of the mentioned,all of the mentioned,ORM
+218,A set of persistent annotations for you to define mapping metadata.,JPA,JSR,XML,None of the mentioned,JPA,ORM
+219,Purpose of Static Factory Method?,Static method to create an object,Initialize bean,All of the mentioned,None of the mentioned,Static method to create an object,ORM
+220,Exception thrown by factory method?,IllegalArgumentException,IndexOutofBoundException,ClassPathNotFoundException,BeanCreationException,BeanCreationException,ORM
+221,Beans can be created by which of the following properties?,Static factory-method,Instance Factory-Method,All of the mentioned,None of the mentioned,All of the mentioned,ORM
+222,Which Attribute is used to specify the bean declared?,factory-bean,scope,getBean,declareBean,factory-bean,ORM
+223,Way to secure web app’s URL.,servlet filters,refresh-check-delay,http servlet filters,none of the mentioned,servlet filters,ORM
+224,"Servlet filter registered in web deployment descriptor, which filters request in spring application context.",DelegatingFilter,DelegatingFilterProxy,DelegatingProxy,None of the mentioned,DelegatingFilterProxy,ORM
+225,Servlet APIs to access security information of web application.,HttpServletRequest.isUserInRole(),HttpServletRequest.getUserPrincipal(),None of the mentioned,All of the mentioned,All of the mentioned,ORM
+226,To load root application context at the start up.,ContextListener,ContextLoader,ContextLoaderListener,ContextEventListener,ContextLoaderListener,ORM
+227,To dispatch requests for web application.,DispatcherServlet,ViewHandler,ViewResolver,None of the mentioned,DispatcherServlet,ORM
+228,The responsibility of DelegatingFilterProxy is simply to delegate HTTP request filtering to a Spring bean that implements the interface:-,java.util.logging.Filter,java.util.logging.net,java.util.logging.FilterHttp,none of the mentioned,java.util.logging.Filter,ORM
+229,"Filter chain configured by Spring security, when web app security enabled.",springSecurityFilterChain,delegatingFilterProxy,none of the mentioned,all of the mentioned,springSecurityFilterChain,ORM
+230,Element used to restrict access to a particular URL.,restrict-url,intercept-url,intercept-restrict,none of the mentioned,intercept-url,ORM
+231,Element which defines user details.,user-service,user-details,user-requirements,user-servicerequirements,user-service,ORM
+232,The basic security services registered and configured by Spring Security.,Form-based login service,Logout Service,HTTP Basic authentication.,All of the mentioned,All of the mentioned,ORM
+233,It allows you to override some of the configurations in the JPA configuration file.,LocalEntityManagerFactoryBean,LocalContainerEntityManagerFactoryBean,All of the mentioned,None of the mentioned,LocalContainerEntityManagerFactoryBean,ORM
+234,FactoryBean to create an entity manager factory in the IoC container.,LocalEntityManagerFactoryBean,LocalEntityManagerFactory,LocalEntityManager,All of the mentioned,LocalEntityManagerFactoryBean,ORM
+235,Property for factory bean to load the Hibernate configuration file.,config.xml,config,configLocation,none of the mentioned,configLocation,ORM
+236,To accept a session factory via dependency injection.,HibernateCourseDao,HibernateCourse,HibernateDao,All of the mentioned,HibernateCourseDao,ORM
+237,Interface whose instances can be obtained from an EntityManagerFactory instance.,Entity,EntityManager,All of the mentioned,None of the mentioned,EntityManager,ORM
+238,Interface whose instances can be obtained from a SessionFactory instance.,Session,Session Factory,All of the mentioned,None of the mentioned,Session,ORM
+239,Core Programming Elements for Different Data Access Strategies.,Resource,Resource Factory,Session,All of the mentioned,All of the mentioned,ORM
+240,What is the size of wchar_t in C++?,2,4,2 or 4,Based on the number of bits in the system,Based on the number of bits in the system,C++
+241,Pick the odd one out.,array type,character type,boolean type,integer type,array type,C++
+242,Which data type is used to represent the absence of parameters?,int,short,void,float,void,C++
+243,Which of the following belongs to the set of character types?,char,wchar_t,only a,both wchar_t and char,both wchar_t and char,C++
+244,How do we represent a wide character of the form wchar_t?,L’a’,l’a’,L[a],la,L’a’,C++
+245,Is the size of character literals different in C and C++?,Implementation defined,Can’t say,"Yes, they are different","No, they are not different","Yes, they are different",C++
+246,"Suppose in a hypothetical machine, the size of char is 32 bits. What would sizeof(char) return?",4,1,Implementation dependent,Machine dependent,1,C++
+247,What constant defined in <climits> header returns the number of bits in a char?,CHAR_SIZE,SIZE_CHAR,BIT_CHAR,CHAR_BIT,CHAR_BIT,C++
+248,Which of the following is not one of the sizes of the floating point types?,short float,float,long double,double,short float,C++
+249,Which of the following is a valid floating-point literal?,f287.333,F287.333,2.87E+04,287.3.e2,2.87E+04,C++
+250,Which of three sizes of floating point types should be used when extended precision is required?,float,double,long double,extended float,long double,C++
+251,What is the index number of the last element of an array with 9 elements?,9,8,0,Programmer-defined,8,C++
+252,Choose the incorrect option.,void is used when the function does not return a value,void is also used when the value of a pointer is null,void is used as the base type for pointers to objects of unknown type,void is a special fundamental type,void is also used when the value of a pointer is null,C++
+253,Which of the following will not return a value?,null,void,empty,free,none of the mentioned,C++
+254,Which is correct with respect to the size of the data types?,char > int < float,int < char > float,char < int < float,char < int < double,char < int < double,C++
+255,How many characters are specified in the ASCII scheme?,64,128,256,24,128,C++
+256,Which of the two operators ++ and — work for the bool data type in C++?,None,++,—,++ & —,++,C++
+257,What happens when a null pointer is converted into bool?,an error is flagged,bool value evaluates to true,bool value evaluates to false,the statement is ignored,bool value evaluates to false,C++
+258,Find the odd one out.,std::vector<int>,std::vector<short>,std::vector<long>,std::vector<bool>,std::vector<bool>,C++
+259,Is bool a fundamental data type in C++?,Yes,"No, it is a typedef of unsigned char","No, it is an enum of {false, true}","No, it is expanded from macros",Yes,C++
+260,Pick the odd one out.,"integer, character, boolean, floating","enumeration, classes","enumeration, classes","integer, enum, void","integer, enum, void",C++
+261,"When a language has the capability to produce new data type mean, it can be called as",overloaded,extensible,encapsulated,reprehensible,extensible,C++
+262,The value 132.54 can be represented using which data type?,double,void,int,bool,double,C++
+263,Identify the user-defined types from the following?,enumeration,classes,both enumeration and classes,int,both enumeration and classes,C++
+264,Which type is best suited to represent the logical values?,integer,boolean,character,float,boolean,C++
+265,What does ‘\a’ escape code represent?,alert,backslash,tab,form feed,alert,C++
+266,Which attribute specifies a unique alphanumeric identifier to be associated with an element?,class,id,article,html,id,HTML
+267,"The _____________ attribute specifies an inline style associated with an element, which determines the rendering of the affected element.",dir,style,class,article,style,HTML
+268,Choose the correct tag for the largest heading in HTML.,h6,heading,h1,head,h1,HTML
+269,Which of the following are table tags?,"table, thead, tr, td","colspan, table, tr","table, tt, tr, td","thead, colspan, td, tr","table, thead, tr, td",HTML
+270,Choose the correct HTML for width attribute and its value.,width=80,width=”80″,WIDTH=”80″,WIDTH=80,width=”80″,HTML
+271,Which one of the following is an open source JavaScript library that enables styling for HTML5 elements in versions of Internet Explorer before IE 9 ?,HTML5,HTML5 Shiv,HTML5 Shim,HTML5 Sham,HTML5 Shiv,HTML
+272,Which one of the following is not a step to install a library you need to perform the compatibility in browsers?,Download the library from the github location,Uncompress the file,Insert the following code inside the head tag,None of the mentioned,None of the mentioned,HTML
+273,Which property is used to detect the browser’s user agent and code based on the pertinent cases?,navigator.userAgent,navigator.user,navigator,return,navigator.userAgent,HTML
+274,"Some users have requested tests for IE’s float double margin bug, and support for position:fixed. Which API is suitable for them?",mq() media Plugin API,addTest() Plugin API,testAllProps() Plugin API,none of the mentioned,addTest() Plugin API,HTML
+275, ___________ is an open source JavaScript library that allows support for different levels of experiences based on the capabilities of each browser.,Navigator,Modernizr,Geolocation,Google API,Modernizr,HTML
+276, ____________ allows you to add custom styles to the document and test an element afterwards.,hasEvent(),testAllProps(),testProp(),modernizr.testStyles(),modernizr.testStyles(),HTML
+277,___________ is used to test whether geolocation is supported in old browsers.,Modernizr,Modernizr.geolocation,Navigator.userAgent,Modernizr.js,Navigator.userAgent,HTML
+278,____________ is a resource loader (CSS and JavaScript) that was made to specifically to work side-by-side with Modernizr.,HasEvent(),Navigator.userAgent,Modernizr.load,Modernizer.geolocation,Modernizr.load,HTML
+279,__________ is an HTML specification used to add more information to HTML tags.,Macrodata,Microdata,Minidata,Modifydata,Microdata,HTML
+280,The microdata model consists of groups of name-value pairs known as ______,Item,Property,Value,URL,Item,HTML
+281,Every HTML element may have an ____________ attribute specified.,itemtype,relevant types,itemscope,itemref,itemscope,HTML
+282,Which of the following is the attribute that is used to add a name/value pair to a microdata item?,itemscope,itemref,itemprop,itemid,itemprop,HTML
+283,Which of the following is the attribute that is used to set a global identifier for a microdata item?,key,id,itemclass,itemid,itemid,HTML
+284,Which of the following is the attribute that indicates the name of the data source object that supplies the data that is bound to this element?,dataFormatAs,datafld,disabled,datasrc,datasrc,HTML
+285,Which of the following is the attribute that specifies the column name from the data source object that supplies the bound data?,dataFormatAs,datafld,disabled,datasrc,datafld,HTML
+286,The __________ attribute sets the text direction as related to the lang attribute.,lang,sub,dir,ds,dir,HTML
+287,Which attribute is used to provide an advisory text about an element or its contents?,tooltip,dir,title,head,title,HTML
+288,Which feature was already introduced before HTML5?,Canvas/SVG,Video,Geolocation,Frames,Frames,HTML5
+289,Which tag is used with JavaScript?,<canvas>,<table>,<article>,<footer>,<canvas>,HTML5
+290,What application can one create even before the introduction of HTML5?,Web applications,Mobile applications,Forms,Browser based games,Forms,HTML5
+291,What is the correct syntax of doctype in HTML5?,<!doctype html>,<doctype html!>,<doctype html>,</doctype html>,<!doctype html>,HTML5
+292,What if one does not use the doctype in the starting of HTML document?,Browser finds the document in quirky mode,Browser finds a document in standard mode,Browser stops working,Browser crashes after showing the page,Browser finds the document in quirky mode,HTML5
+293,Which of the following is not semantic element for text in HTML5?,<mark>,<time>,<wbr>,<article>,<article>,HTML5
+294,Which tag supports Non-English language?,<input>,<audio>,<embed>,<bdo>,<bdo>,HTML5
+295,Which element was not removed by HTML5?,<strike>,<center>,<small>,<big>,<small>,HTML5
+296,Which element is used to enclose inline text?,<samp>,<small>,<s>,<rtc>,<samp>,HTML5
+297,Which of the following is a generic inline container for phrasing content?,<strong>,<sub>,<span>,<sup>,<span>,HTML5
+298,Which of the following element is known as Teletype Text element?,<time>,<tt>,<wbr>,<sup>,<tt>,HTML5
+299,Variable element is ________,<var>,<wbr>,<sup>,<time>,<var>,HTML5
+300,Which element represents word break opportunity?,<var>,<sup>,<wbr>,<rtc>,<wbr>,HTML5
+301,Which of the following is known as child of media elements?,<area>,<img>,<map>,<track>,<track>,HTML5
+302,Which element represents an external resource?,<object>,<source>,<param>,<picture>,<object>,HTML5
+303,Which element specifies multiple media resources?,<param>,<source>,<object>,<picture>,<source>,HTML5
+304,C99 standard guarantees uniqueness of __________ characters for internal names.,31,63,12,14,63,C
+305,C99 standard guarantees uniqueness of ___________ characters for external names.,31,6,12,14,31,C
+306,Which of the following is not a valid variable name declaration?,int __a3;,int __3a;,int __A3;,None of the mentioned,None of the mentioned,C
+307,Name the function that breaks a floating-point number into a normalized fraction and an integral power of 2.,exp(),frexp(),Idexp(),modf(),frexp(),C
+308,The function computes the exponential function of x.,exp(x),frexp(x),frexp x,exp x,exp x,C
+309,Are logical operator sequence points?,TRUE,FALSE,Depends on the compiler,Depends on the standard,TRUE,C
+310,Do logical operators in the C language are evaluated with the short circuit?,TRUE,FALSE,Depends on the compiler,Depends on the standard,TRUE,C
+311,What is the result of logical or relational expression in C?,True or False,0 or 1,0,None of the mentioned,0 or 1,C
+312,What is the size of a C structure?,C structure is always 128 bytes.,Size of C structure is the total bytes of all elements of structure.,Size of C structure is the size of largest element.,None of the above,Size of C structure is the total bytes of all elements of structure.,C
+313,Who invented C Language?,Charles Babbage,Grahambel,Dennis Ritchie,Steve Jobs,Dennis Ritchie,C
+314,C Language is a successor to which language?,FORTRAN,D Language,BASIC,B Language,B Language,C
+315,C is a which level language?,Low Level,High Level,Low + High,None,High Level,C
+316,Low level language is ?,Human readable like language.,language with big program size.,language with small program size.,Difficult to understand and readability is questionable.,Difficult to understand and readability is questionable.,C
+317,High level language is a .?,Human readable like language.,language with small program size.,language with big program size.,language which is difficult to understand and not human readable.,Human readable like language.,C
+318,C is _______ type of programming language?,Object Oriented,Procedural,Bit level language,Functional,Procedural,C
+319,C language was invented in which laboratories.?,Uniliver Labs,IBM Labs,AT&T Bell Labs,Verizon Labs,AT&T Bell Labs,C
+320,BCPL Language is also called?,C Language,B Language,D Language,None,None,C
+321,C language was invented to develop which Operating System.?,Android,Linux,Ubuntu,Unix,Unix,C
+322,C language was invented in the year?,1999,1978,1972,1990,1972,C
+323,C language is used in the development of?,Databases,Graphic applications,Word Processors,All of the above,All of the above,C
+324,A C program is a combination of?,Statements,Functions,Variables,All of the above,All of the above,C
+325,What is an Identifier in C Language?,Name of a Function or Variable,Name of a Macros,Name of Structure or Union,All the above.,All the above.,C
+326,What is the number of characters used to distinguish Identifier or Names of Functions and Global variables?,31,32,33,28,31,C
+327,Which of the following is the correct code?,tanh(double x),tanh double x,tanhdouble x,tanhdoublex,tanh(double x),C
+328,What error occurs if the magnitude of x is too large in sinh(double x)?,domain error,range error,no error,zero is returned,range error,C
+329,The function computes the hyperbolic cosine of x.,cos(x),cosine(x),cosh(x),cosineh(x),cosh(x),C
+330,The cos function computes the cosine of x.,measured in radians,measured in degrees,measured in gradian,measured in milliradian,measured in radians,C
+331,"Django follows ____ architecture pattern, written in Python programming language and designed for creating easy apps with rapid development.",MVC,MMC,MVT,NVC,MVC,Django
+332,Release date of Django is ___.,2012,2011,2010,2009,2012,Django
+333,Django is a _____ Python web framework that enables rapid development of secure and maintainable websites.,high-level,low-level,mid-level,extreme-level,high-level,Django
+334,Which foundation manages the Django web framework?,Django Software Foundation,Microsoft,IBM,Apple,Django Software Foundation,Django
+335,Django ___ is an LTS release and will receive security and data loss fixes until April 2022.,2.2,2.3,2.4,2.5,2.2,Django
+336,The Django 2.2.x series is the last to support Python ___.,3.5,3.4,3.3,3.2,3.5,Django
+337,"_____ is a free and open source web application framework, written in Python.",Django,XML,HTTP,CoffeeScript,Django,Django
+338,Django is named after Django _____.,Reinhardt,Richards,Ryan,Ross,Reinhardt,Django
+339,______ style is used if you want to subclass on an existing model and each of the models to have its own database table.,inheritance,adoption,mirroring,transformation,inheritence,Django
+340,Django is a _______ based web application framework which is helpful for building a variety of web application.,python,C++,Java,Swift,python,Django
+341,______ collects static files from each of your applications (and any other places you specify) into a single location that can easily be served in production.,staticfiles,constantfiles,unmovedfiles,stablefiles,staticfiles,Django
+342,_______ is a framework of hooks into Django's request/response processing.,Middleware,XML,HTTP,CoffeeScript,Middleware,Django
+343,"Django uses the ______ class types to determine a few things: The column type, which tells the database what kind of data to store (e.g. INTEGER , VARCHAR , TEXT ).",field,exception,int,txt,field,Django
+344,What does {% include %} does?,It will include another template.,It will include content from another template having the same templates defined.,,None of the above,It will include another template.,Django
+345, What is the Django shortcut method to more easily render an html response?,render_to_html,render_to_response, response_render,render,render_to_response,Django
+346,"By using django.contrib.humanize, you can use the following filter in your template to display the number 3 as three.",apnumber,intcomma,intword,ordinal,apnumber,Django
+347,What is the Django command to start a new app named ‘users’ in an existing project?,manage.py –newapp users,manage.py newapp users,manage.py –startapp users,manage.py startapp users,manage.py startapp users,Django
+348,What are the features available in Django web framework?,Admin Interface (CRUD),Templating,Form handling,All of the above,All of the above,Django
+349,"What is the most easiest, fastest, and most stable deployment choice in most cases with Django?",FastCGI,mod_wsgi,SCGI,AJP,mod_wsgi,Django
+350,A _____ is a mechanism to store information on the server side during the interaction with the web application.,session,timeout,reload,data saving,session,Django
+351,A _____ is a small piece of information which is stored in the client browser.,cookie,thread,string,history,cookie,Django
+352,Which of the following is supported by Ruby?,Multiple Programming Paradigms,Dynamic Type System,Automatic Memory Management,All of the Mentioned,All of the Mentioned,Ruby
+353,Which of the following features does the 2.0 version of ruby supports?,Method keyword arguments,New literals,Security fixes,All of the mentioned,All of the mentioned,Ruby
+354,Which of the following languages syntax matches with the Ruby’s syntax?,Perl,PHP,Java,Jquery,Perl,Ruby
+355,What is the extension used for saving the ruby file?,.ruby extension,.rb extension,.rrb extension,None of the mentioned,.rb extension,Ruby
+356,Which of the following are valid floating point literal?,0.5,2,0.5,None of the mentioned,0.5,Ruby
+357,Which of the following datatypes are valid in Ruby?,Numbers,Boolean,String,All of the mentioned,All of the mentioned,Ruby
+358,What will any variable evaluate to if it is of Boolean data type?,TRUE,Nil,FALSE,Either True or False,Either True or False,Ruby
+359,Why can not we use quotation marks (‘ or “) with boolean?,It indicates that we are talking about a string,It indicates that we are assining a value,It indicates that that we are replacing boolean data type with string data type,None of the mentioned,It indicates that we are talking about a string,Ruby
+360,What is the size of an integer data type in ruby?,-2^30 to 2^30,-2^30 to 2^(30-1),-2^29 to 2^30,-2^60 to 2^61,-2^30 to 2^(30-1),Ruby
+361,Objects of which class does the integer from the range -2^30 to 2^(30-1) belong to?,Bignum,Octal,Fixnum,Binary,Fixnum,Ruby
+362,What does the notataion \b stands for?,Escape,Space,Backspace,Newline,Backspace,Ruby
+363,What is the sequence of ruby strings?,16-bit bytes,8-bit bytes,10-bit bytes,None of the mentioned,8-bit bytes,Ruby
+364,Which of the following is not a valid datatype?,Float,Integer,Binary,Timedate,Timedate,Ruby
+365,What is the range of octal notation (\nnn)?,0-8,0-7,0-A,None of the mentioned,0-7,Ruby
+366,Which of the following is the valid string method?,The .length method,The .upcase method,The .downcase method,The .irreverse method,The .irreverse method,Ruby
+367,What does the .upcase method do?,Convert the string to uppercase,Convert only lowercase string to uppercase and vice-versa,Convert the string to lowercase,None o the mentioned,Convert the string to uppercase,Ruby
+368,What is the use of .capitalize method?,It capitalizes the entire string,It capitalize on the first letter of the string,It capitalize the strings which are in small case,All of the mentioned,It capitalize on the first letter of the string,Ruby
+369,What is the role of ! at the end of the capitalize method?,It is the syntax for using capitalize method,It modifies the value stored in the variable,It indicates the termination of string,None of the mentioned,It modifies the value stored in the variable,Ruby
+370,What do we mean by expression substitution?,Embedding the value of Ruby expression into a string using #{ },Substituting string functions,Storing string value,None of the mentioned,Embedding the value of Ruby expression into a string using #{ },Ruby
+371,What does %{Learn ruby language} represents?,“Learn Ruby language”,“%{Learn Ruby language}”,” Learn Ruby language ”,None of the mentioned,“Learn Ruby language”,Ruby
+372,What does %Q{ Learn ruby language } represents?,” Learn Ruby language ”,“%{ Learn Ruby language }”,” Learn Ruby language ”,None of the mentioned,” Learn Ruby language ”,Ruby
+373,What does %x!ls! represents?,Same as back tick command output `ls`,Same as ‘x’,Same as “xls”,None of the mentioned,Same as “xls”,Ruby
+374,Why do we use comments?,For later use to understand the working of the program,It is an efficient way of programming,It makes easy for the third person to understand,All of the mentioned,All of the mentioned,Ruby
+375,Which of the following type of comments are valid in ruby?,Single line comments,Multi line comments,Double line comments,All of the mentioned,All of the mentioned,Ruby
+376,How to comment multiple lines in ruby?,Using multiline comments,Using single line comments,No option to comment,All of the above,Using multiline comments,Ruby
+377,How to comment a single line?,Using #,Using begin and end,Using //,None of the mentioned,Using #,Ruby
+378,Ruby is?,procedural language,scripting language,Markup language,Stylesheet language,scripting language,Ruby
+379,Ruby is designed by?,Yukihiro Matsumoto,Guido van Rossum,Tim Berners-Lee,Brendan Eich,Yukihiro Matsumoto,Ruby
+380,Ruby was created in?,1992,1993,1994,1995,1993,Ruby
+381,Which of the following statement is not a feature of ruby?,Ruby is interpreted programming language.,Ruby can be used to write Common Gateway Interface (CGI) scripts.,Ruby can be embedded into Hypertext Markup Language (HTML).,Ruby can not be connected to Database.,Ruby can not be connected to Database.,Ruby
+382,When Whitespace characters such as spaces and tabs can not ignored in Ruby code?,While using strings,While using integer,while using float value,All of the above,While using strings,Ruby
+383,Reserved word can not be used as?,constant,variable names,Both A and B,None of the above,Both A and B,Ruby
+384,Which character is used to give comment in ruby?,!,@,#,$,#,Ruby
+385,Which of the following is supported by Ruby?,Dynamic Type System,Multiple Programming Paradigms,Automatic Memory Management,All of the above,All of the above,Ruby
+386,Which of the following languages syntax matches with the Ruby's syntax?,C,Perl,PHP,Java,Perl,Ruby
+387,Which of the following are valid floating point literal?,0.5,5,0.5,5,0.5,Ruby
+388,Global variables in ruby begin with?,@,#,$,&,$,Ruby
+389,Default value of global variable is?,-1,nil,1,infinite,nil,Ruby
+390,Local variables in ruby begin with?,@,_,*,#,_,Ruby
+391,Which of the following Ruby Pseudo-Variables is used for The receiver object of the current method?,self,current,nil,_FILE_,self,Ruby
+392,Which of the following Ruby Pseudo Variables is used to return current line number in the source file?,_FILE_,_CURRENT_,_LINE_,None of the above,_LINE_,Ruby
+393,Which notation is used for Octal notation?,\s,\xnn,\n,\nn,\nn,Ruby
+394,Which of the following datatypes are valid in Ruby?,Numbers,String,Boolean,All of the above,All of the above,Ruby
+395,What is the sequence of ruby strings?,16-bit bytes,8-bit bytes,4-bit bytes,None of the above,8-bit bytes,Ruby
+396,single-quoted strings don`t allow ?,substitution,backslash notation,single-quoted strings allow substitution and backslash notation.,single-quoted strings don`t allow substitution and allow backslash notation.,single-quoted strings don`t allow substitution and allow backslash notation.,Ruby
+397,Objects of which class does the integer from the range -2^60 to 2^(60-1) belong to?,Octal,Bignum,Fixnum,Binary,Bignum,Ruby
+398,Which of the following is not a type of loop in ruby?,For Loop,Foreach Loop,Until Loop,While Loop,Foreach Loop,Ruby
+399,What is true about while loop?,Executes code while conditional is true,In while loop increment is not required,Executes code while conditional is false,None of the above,Executes code while conditional is true,Ruby
+400,Which statement is used to Jumps to the next iteration of the most internal loop?,break,next,redo,retry,next,Ruby
+401,Which statement is used to restarts the invocation of the iterator call?,break,next,redo,retry,retry,Ruby
+402,What does end represent?,keyword represents the ending of loop,keyword represents the start of loop,keyword represents the start and ending of loop,keyword represents the infinite loop,keyword represents the ending of loop,Ruby
+403,Which of the following is not correct method class IO provides?,readline,gets,puts,Writeline,Writeline,Ruby
+404,______ is a mechanism where all the previous logs are removed from the system and stored permanently in a storage disk.,Checkpoint,Placement ,DelLogs,AutoSave,Checkpoint,DBMS
+405,"The checkpoint is used to declare a point before which the DBMS was in the ____ state, and all transactions were committed.",consistent,static,slow,random,consistent,DBMS
+406,______ hides implementation details from the user.,Transparent,HideFunction,Block,Del,Transparent,DBMS
+407,Operations which involve only one relation are called _________.,unary operations,singular operations,one dimensional operations,binary operations,unary operations,DBMS
+408,"______ is a common type of database that stores data in tables, so it can be used in relation to other stored datasets.",RDBMS,DBMS,Oracle,MySQL,RDBMS,DBMS
+409,A database language is comprised of two languages _______.,DDL and DML,DEX and DDL,DDL and AL,DML and DEX,DDL and DML,DBMS
+410,In which year was DBMS created?,1960,1959,1968,1970,1960,DBMS
+411,Data _________ is a process of hiding the implement details and representing only the essential features to simplify user's interaction with the system.,abstraction,exclusion,absorbtion,finding,abstraction,DBMS
+412,There are mainly _____ levels of data abstraction.,three,four,five,six,three,DBMS
+413,A DDL is a computer language used to create and modify the structure of database objects in a database.,DDL ,DML,MEX,DEX,DDL,DBMS
+414,A ___ is a family of computer languages including commands permitting users to manipulate data in a database.,DML,DDL,MEX,DEX,DML,DBMS
+415,___ compiler translates DML statements in a query language into a low-level instruction and the generated instruction can be understood by Query Evaluation Engine.,DML,DDL,MEX,DEX,DML,DBMS
+416,_________ is a widely used procedural query language.,RELATIONAL ALGEBRA,ARITHEMATICS,QueryX,Python,RELATIONAL ALGEBRA,DBMS
+417,"In database systems, _______ is the ACID property which guarantees that transactions that have committed will survive permanently.",durability,Transactions,Perm,stability,durability,DBMS
+418,The MATLAB Data ___ provides a way for applications running outside of MATLAB to work with MATLAB data through a MATLAB-neutral interface.,API,Interface,Provider,Table,API,MATLAB
+419,________ is a proprietary multi-paradigm programming language and numeric computing environment developed by MathWorks.,MATLAB,Python,Java,Ruby,MATLAB,MATLAB
+420,"_______ is a MATLAB-based graphical programming environment for modeling, simulating and analyzing multidomain dynamical systems.",Simulink,Link,TimeLink,Simulator,Simulink,MATLAB
+421,MATLAB represents polynomials with ______ vectors containing the polynomial coefficients ordered by descending power.,numeric,table,Arithematic,same,numeric,MATLAB
+422,There are ___ fundamental classes in MATLAB.,16,8,4,2,16,MATLAB
+423, MATLAB ignores _____ structures.,empty,filled,void,extra,empty,MATLAB
+424,A multidimensional array in MATLAB is an array with more than ____ dimensions.,two,one,three,four,two,MATLAB
+425,"Matlab provides various types of ______ to handle looping requirements including: while loops, for loops, and nested loops.",loops,functions,arrays,methods,loops,MATLAB
+426,3D visualization elements allow MATLAB to deal with ____________.,3D graphics,2D graphics,GFX,CGI,3D graphics,MATLAB
+427," A ____ file is a function, created in MATLAB, that calls a C/C++ program or a Fortran subroutine.",MEX ,MAX,CALL,FORTRAN,MEX ,MATLAB
+428,____ is a dimension-reduction technique based on a low-rank approximation of the feature space.,NMF,MMF,NF,MF,NMF,MATLAB
+429,____ solvers in MATLAB solve initial value problems with a variety of properties.,ODE,ODD,OPE,ODC,ODE,MATLAB
+430,"By default, MATLAB interprets text using ___ markup.",TeX,txt,TEXT,TxT,TeX,MATLAB
+431,An _____ is a simple text file where you can place MATLAB commands.,m-file,c-file,txt-file,cmd-file,m-file,MATLAB
+432,"A ____ file is a type of computer file that provides an interface between MATLAB or Octave and functions written in C, C++ or Fortran.",MEX ,MAX,CALL,FORTRAN,MEX ,MATLAB
+433,_____ is the low-level graphics function for creating patch graphics objects.,Patch,GRAPHICS,Obj,PGO,Patch,MATLAB
+434,_______ is an online math fact fluency program that helps students increase their basic math facts recall and automaticity.,XtraMath,BasicMath,MathX,AutoMath,XtraMath,MATLAB
+435,"By default, MATLAB uses ___ digits of precision.",16 digits,8 digits,6 digits,4 digits,16 digits,MATLAB
+436,_______ objects are the components used by MATLAB to create visualizations of data.,Graphics,Visuals,Scenery,Comps,Graphics,MATLAB
+437,The _____ machine is similar to a conventional computer in that it consists of a processor and a memory.,P-code,X-code,V-code,PM-code,P-code,MATLAB
+438,_______ is a high-performance language for technical computing.,MATLAB,Python,Asembley,Ruby,MATLAB,MATLAB
+439,Finite element _______ is a computational method for analyzing the behavior of physical products under loads and boundary conditions.,analysis,access,review,reading,analysis,MATLAB
+440,The Database ______ app lets you quickly connect to a database.,Explorer,Finder,X,DB,Explorer,MATLAB
+441,how many languages are supported by MongoDB?,12,8,6,4,12,MongoDB
+442,_________ for MongoDB is an electron-powered desktop application that bundles Node. js and Chromium runtime.,NoSQLBooster,SQLBooster,Booster,SQL,NoSQLBooster,MongoDB
+443,MongoDB ______ is a fully-managed cloud database developed by the same people that build MongoDB.,Atlas,Map,Earth,World,Atlas,MongoDB
+444,_______ is a document-oriented NoSQL database used for high volume data storage.,MongoDB,MangoDB,DBMS,NoSQL,MongoDB,MongoDB
+445,MongoDB represents data as of _______ documents,JSON,Tab,TSON,DBMS,JSON,MongoDB
+446,________ can be used to run MongoDB instances.,Docker,Dock,Mtool,DataTool,Docker,MongoDB
+447,________ doesn't support primary key-foreign key relationship.,MongoDB,RavenDB,RethinkDB,PostgreSQL,MongoDB,MongoDB
+448,The purpose of_________ is to prevent the creation of data if the field value does not match its ForeignKey., ForeignKey,ToolKey,AccessKey,DataTool, ForeignKey,MongoDB
+449,MongoDB requires approximately ____ of RAM per 100.000 assets.,1GB,8GB,16GB,4GB,1GB,MongoDB
+450,An ObjectId in MongoDB is a ______ BSON type.,12-byte,8-byte,16-byte,4-byte,12-byte,MongoDB
+451,Anything you can represent in JSON can be natively stored in _________.,MongoDB,RavenDB,DBMS,PostgreSQL,MongoDB,MongoDB
+452,An ______ in MongoDB is a special data structure that holds the data of few fields of documents on which the index is created., index,iteration,AccessKey,DataTool, index,MongoDB
+453,MongoDB creates a unique index on the____ field during the creation of a collection.,_id,_obj,_data,_li,_id,MongoDB
+454,A document ______ is a JSON object that allows you to define the shape and content of documents and embedded documents in a collection.,schema,scheme,maker,box,schema,MongoDB
+455,Can journaling features be used to perform safe hot backups?,Yes,No,Backup is deleted,To some extent,Yes,MongoDB
+456,The _____ writes all the data it collects to the system., profiler,informer,maker,collector, profiler,MongoDB
+457,"If you remove an object attribute, is it deleted from the database?",No,Yes,Some data,Most data,No,MongoDB
+458,In which language MongoDB is written?,C++,Python,Ruby,Java,C++,MongoDB
+459,Does MongoDB need a lot space of Random Access Memory (RAM)?,Small amount,Big amount,Moderate amount,Extremely small amount,Small amount,MongoDB
+460,Which is the easiest language you can use with MongoDB?,Python,Ruby,C,Java,Python,MongoDB
+461,"Instead of ______, a MongoDB database stores its data in collections.",tables,columns,pages,rows,tables,MongoDB
+462,_________ is a schema-less NoSQL document database.,MongoDB,Oracle,RavenDB,Redis,MongoDB,MongoDB
+463,"MongoDB, in its default configuration, will use will use the larger of either ______ or ½ of (ram – 1 GB) for its cache size.",256MB,512MB,1GB,2GB,256MB,MongoDB
+464,"MongoDB 4.0 adds support for multi-document ____ transactions, making it the only database to combine the speed, flexibility, and power of the document ", ACID,FAST,QUICK,SMART, ACID,MongoDB
+465,______ MongoDB processes are limited to about 2 gb of data.,32-bit,64-bit,128-bit,256-bit,32-bit,MongoDB
+466,MongoDB cannot move a chunk if the number of documents in the chunk is greater than ____ times the result of dividing the configured chunk size by the average document size.,1.3,1.4,1.5,1.6,1.3,MongoDB
+467, MongoDB uses the______ key to distribute the collection's documents across shards., shard,CRUD,Insert,Distribution, shard,MongoDB
+468,_______ stores data such that each node contains keys in ascending order.,B-tree,A-tree,C-tree,D-tree,B-tree,MongoDB
+469,_________ help us in querying data faster.,Covered queries,Shared queries,Same queries,Multiple queries,Covered queries,MongoDB
+470,________ is a method for distributing data across multiple machines.,Sharding,Sharing,Merging,Insertion,Sharding,MongoDB
+471,"___________ provide redundancy and high availability, and are the basis for all production deployments.",Replica sets,twin set,same set,opposition set,Replica sets,MongoDB
+472,The _______ is the only member in the replica set that receives write operations., primary,secondary,third,fourth, primary,MongoDB
+473,A _______ in MongoDB is a group of mongod processes that maintain the same data set. ,replica set,twin set,same set,opposition set,replica set,MongoDB
+474,"______ operations refer to the basic Insert, Read, Update and Delete operations.",CRUD,SHRUD,Arithematic,EDIT,CRUD,MongoDB
+475,"In MongoDB, data is stored as _______.",documents,files,columns,tables,documents,MongoDB
+476,"In the ____ directory, MongoDB preallocates data files to a particular size, in part to prevent file system fragmentation.",data,file,table,current,data,MongoDB
+477,MongoDB supports ______ storage engines,multiple,single,double,none,multiple,MongoDB
+478,________ is the default storage engine starting in MongoDB 3.2.,WiredTiger,In-Memory Storage Engine.,MMAPv1,MMAPv2,WiredTiger,MongoDB
+479,MongoDB supports mainly __ storage engines.,3,4,5,2,3,MongoDB
+480,________ is MongoDB's original storage engine based on memory mapped files.,MMAPv1,MMAPv2,MMAPv3,MMAPv4,MMAPv1,MongoDB
+481,_______ limits the size of the WiredTiger internal cache.,cacheSizeGB,DataSizeGB,SizeGB,RAMSizeGB,cacheSizeGB,MongoDB
+482,"_______ uses multi-granularity locking [1] that allows operations to lock at the global, database or collection level, and allows for individual storage engines to implement their own concurrency control below the collection level (e.g., at the document-level in WiredTiger).",MongoDB,Cassandra,RavenDB,Redis,MongoDB,MongoDB
+483,"_______ is an in-memory, persistent data structure store that enables developers to perform common operations with minimal complexity and maximum performance.",Redis,Cassandra,CouchDB,MongoDB,Redis,MongoDB
+484,_______ is also a clustered database that allows you to run a single logical database server on any number of servers or VMs.,CouchDB,MongoDB,RavenDB,Cassandra,CouchDB,MongoDB
+485,_________ is a column-oriented database.,Cassandra,MongoDB,RavenDB,Oracle,Cassandra,MongoDB
+486,How many languages are supported by .NET at present time?,60,40,50,28,60,.NET
+487,______ allocates a new string.,Substring(),String(),SS(),Str(),Substring(),.NET
+488,_______ is a cross-platform web server for ASP.NET Core.,Kestrel,Olivia,Coastal,Costral,Kestrel,.NET
+489,_______ is a web server that can act as a reverse proxy for ASP.NET Core applications and which is also very good at serving static content.,Nginx,Kprix,Nprix,Pginx,Nginx,.NET
+490,Tracing is introduced in the .NET ____ version,2,1,3,4,2,.NET
+491,_______ is an immutable value type that represents signed integers,Int32,Int8,Int16,Int64,Int32,.NET
+492,An _____ is a collection of types and resources that are built to work together and form a logical unit of functionality.,assembly,automation,association,addition,assembly,.NET
+493,A ______ Type stores its contents in memory allocated on the stack.,Value,Save,Complete,Store,Value,.NET
+494,The ________ object holds information that will be used by many pages in the application.,Application,Info,Table,Page,Application,.NET
+495,The ______ method allows you to create and execute a task in a single method call and is a simpler alternative to the StartNew method.,Run,Fast,Create,Execute,Run,.NET
+496, A ________ is a special collection that is used to store key-value items,hash table,store table,save table,stored table,hash table,.NET
+497,An ___________ object is defined as an object that cannot be changed after it has been created.,immutable,mutable,packaged,stored,immutable,.NET
+498,A  ______ can store the value on the Server.,Session,Pack,Box,Table,Session,.NET
+499,__________ is the process of converting a value type to the type object or to any interface type implemented by this value type.,Boxing,Unboxing,Packing,Unpacking,Boxing,.NET
+500,____________ are used by ASP.NET web application server to handle specific requests based on extensions.,HTTPHandlers,VB.NET,.NET Applications,Handlers,HTTPHandlers,.NET

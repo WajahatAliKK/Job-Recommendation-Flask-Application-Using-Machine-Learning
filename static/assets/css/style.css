@@ -1,0 +1,116 @@
+    body {
+        background: radial-gradient(circle, rgba(148, 217, 58, 0.01) 0%, rgba(134, 194, 50, 1) 50%);
+        height: 85vh;
+    }
+    
+    .signup-content {
+        justify-content: center;
+        display: flex;
+        max-width: 400px;
+        margin: 15vh auto;
+    }
+    
+    .c_signup-content {
+        justify-content: center;
+        display: flex;
+        max-width: 500px;
+        margin: 7vh auto;
+    }
+    
+    .signup-form {
+        background: #ffffff;
+        border-radius: 20px;
+        box-shadow: 3px 5px rgb(238, 237, 237);
+        padding: 14px;
+    }
+    
+    .signup-form p {
+        text-align: center;
+        color: #6b6e70;
+        font-size: 12px;
+    }
+    
+    .signup-form input {
+        /* border-radius: 10px; */
+    }
+    
+    .signup-form button {
+        background-color: #86c232;
+        color: #fff;
+        border-radius: 10px;
+        width: 70%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    
+    .signup-input {
+        margin-top: 50px;
+        font-size: 12px;
+    }
+    
+    .c_signup-input {
+        font-size: 12px;
+    }
+    
+    .signup-form .google-btn {
+        display: flex;
+        width: 50%;
+        align-items: center;
+        margin: auto;
+        background-color: #fff;
+        color: #6b6e70;
+        font-size: 11px;
+        font-weight: bold;
+        border: 1px solid #6b6e70;
+    }
+    
+    .signup-input label {
+        color: #6b6e70;
+        font-weight: 500;
+    }
+    
+    .cutom-group {
+        margin-bottom: 7px;
+    }
+    
+    .cutom-group label {
+        color: #6b6e70;
+        font-weight: 500;
+        font-size: 11px;
+    }
+    
+    .signup-page-option {
+        font-size: 10px;
+        text-align: center;
+        color: #6b6e70;
+        font-weight: bold;
+        margin-top: 40px;
+    }
+    
+    .field-icon {
+        float: right;
+        margin-top: -25px;
+        position: relative;
+        z-index: 2;
+        margin-right: 10px;
+    }
+    
+    input.form-control {
+        border-radius: 30rem 0 0 30rem;
+        font-size: 12px;
+    }
+    
+    input.form-control:focus {
+        box-shadow: none;
+    }
+    
+    #datepicker>span:hover {
+        cursor: pointer;
+    }
+    
+    .term-and-condition {
+        padding: 6px;
+        margin-top: 19px;
+        border: 1px solid rgb(207, 205, 205);
+        border-radius: 30rem 0 0 30rem;
+    }

@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from admincast.com/adminca/preview/admin_1/html/form_wizard.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 06 Jan 2020 09:08:54 GMT -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <title>Dashboard</title>
+    <!-- GLOBAL MAINLY STYLES-->
+    <link href="{{url_for('static', filename = 'admin-assets/vendors/bootstrap/dist/css/bootstrap.min.css')}}" rel="stylesheet" />
+    <link href="{{url_for('static', filename = 'admin-assets/vendors/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet" />
+    <link href="{{url_for('static', filename = 'admin-assets/vendors/line-awesome/css/line-awesome.min.css')}}" rel="stylesheet" />
+    <link href="{{url_for('static', filename = 'admin-assets/vendors/themify-icons/css/themify-icons.css')}}" rel="stylesheet" />
+    <link href="{{url_for('static', filename = 'admin-assets/vendors/animate.css/animate.min.css')}}" rel="stylesheet" />
+    <link href="{{url_for('static', filename = 'admin-assets/vendors/toastr/toastr.min.css')}}" rel="stylesheet" />
+    <link href="{{url_for('static', filename = 'admin-assets/vendors/bootstrap-select/dist/css/bootstrap-select.min.css')}}" rel="stylesheet" />
+    <!-- PLUGINS STYLES-->
+    <link href="{{url_for('static', filename = 'admin-assets/vendors/dropzone/dist/min/dropzone.min.css')}}" rel="stylesheet" />
+    <link href="{{url_for('static', filename = 'admin-assets/vendors/dropzone/dist/min/basic.min.css')}}" rel="stylesheet" />
+    <link href="{{url_for('static', filename = 'admin-assets/vendors/jvectormap/jquery-jvectormap-2.0.3.css')}}" rel="stylesheet" />
+    <!-- THEME STYLES-->
+    <link href="{{url_for('static', filename = 'admin-assets/css/main.min.css')}}" rel="stylesheet" />
+
+    <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="{{url_for('static', filename = 'admin-assets/owlcarousel/owl.carousel.min.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename = 'admin-assets/owlcarousel/owl.theme.default.min.css')}}">
+
+    <style>
+        h3 {
+            font-family: Calibri;
+            font-size: 25pt;
+            font-style: normal;
+            font-weight: bold;
+            color: black;
+            text-align: center;
+            text-decoration: underline
+        }
+
+        table {
+            font-family: Calibri;
+            color: black;
+            font-size: 10pt;
+            font-style: normal;
+            font-weight: bold;
+            text-align: center;
+            background-color: white;
+            border-collapse: collapse;
+            border: 2px solid #cacaca;
+
+        }
+
+        table.inner {
+            border: 0px
+        }
+    </style>
+
+
+</head>
+
+<body class="fixed-navbar">
+    <div class="page-wrapper">
+        <!-- START HEADER-->
+        <header class="header">
+            <div class="page-brand">
+                <a href="{{url_for('index')}}">
+                    <span class="brand">Dashboard</span>
+                    <span class="brand-mini">DC</span>
+                </a>
+            </div>
+            <div class="flexbox flex-1">
+                <!-- START TOP-LEFT TOOLBAR-->
+                <ul class="nav navbar-toolbar">
+                    <li>
+                        <a class="nav-link sidebar-toggler js-sidebar-toggler" href="javascript:;">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </a>
+                    </li>
+
+                </ul>
+                <!-- END TOP-LEFT TOOLBAR-->
+                <!-- START TOP-RIGHT TOOLBAR-->
+
+                <ul class="nav navbar-toolbar">
+
+                    <!-- <a href="Jobs_posts.html" class="btn btn-danger mr-4">Post a Job</a> -->
+
+                    <div class="dropdown dropdown-user mr-4">
+                        <a class="dropdown-toggle " data-toggle="dropdown">
+                            <span class="text-white">User</span>
+                            <img src="{{url_for('static', filename = 'admin-assets/img/users/admin-image.png')}}" alt="image" />
+                        </a>
+
+                        <ul class="dropdown-menu mt-4">
+                            <li><a href="{{url_for('userprofile')}}">Profile</a></li>
+                            <li><a href="#">Settings</a></li>
+                            <li><a href="{{url_for('home')}}">Logout</a></li>
+                        </ul>
+                    </div>
+                </ul>
+                <!-- END TOP-RIGHT TOOLBAR-->
+            </div>
+        </header>
+        <!-- END HEADER-->
+        <!-- START SIDEBAR-->
+        <nav class="page-sidebar" id="sidebar">
+            <div id="sidebar-collapse">
+                <ul class="side-menu metismenu">
+                    <li>
+                        <a href="javascript:;"><i class="sidebar-item-icon ti-paint-roller"></i>
+                            <span class="nav-label">User Profile</span><i class="fa fa-angle-left arrow"></i></a>
+                        <ul class="nav-2-level collapse">
+                            <li>
+                                <a class="active " href="{{url_for('Uprofile')}}">Profile</a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><i class="sidebar-item-icon ti-paint-roller"></i>
+                            <span class="nav-label">Survey Form</span><i class="fa fa-angle-left arrow"></i></a>
+                        <ul class="nav-2-level collapse">
+                            <li>
+                                <a class="active " href="{{url_for('survey_form')}}">Survey Form</a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><i class="sidebar-item-icon ti-paint-roller"></i>
+                            <span class="nav-label">Jobs</span><i class="fa fa-angle-left arrow"></i></a>
+                        <ul class="nav-2-level collapse">
+                            <li>
+                                <a class="active " href="jobs_list.html">Jobs Lists</a>
+                                <a class="active " href="jobs_applied.html">Jobs Applied</a>
+                            </li>
+
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+        <!-- END SIDEBAR-->
+        <div class="content-wrapper">
+            <!-- START PAGE CONTENT-->
+            <div class="page-heading">
+                <div class="ibox">
+                    <div class="ibox-head">
+                        <div class="ibox-title">User Profile</div>
+                    </div>
+                    <div class="ibox-body">
+                        <form id="form-wizard" action="/Uprofile" method="post"  novalidate="novalidate">
+                            <h6>Academic Information</h6>
+                            <section>
+                                <h3>Academic Details</h3>
+                             
+
+                                <div class="form-group mb-4">
+                                    <label>City</label>
+                                    <select class="form-control" name="city">
+                                        <option value="Lahore">Lahore</option>
+                                        <option value="Islamabad">Islamabad</option>
+                                        <option value="Peshawar">Peshawar</option>
+                                        <option value="Karachi">Karachi</option>
+                                    </select>
+                                </div>
+                                <div class="form-group mb-4">
+                                    <label>Gender</label>
+                                    <select class="form-control" name="Gender">
+                                        <option value="Male">Male</option>
+                                        <option value="Female">Female</option>
+
+                                    </select>
+                                </div>
+
+
+                                <!----- Qualification---------------------------------------------------------->
+
+                                <div class="form-group" >
+                                    <tr>
+                                        <td>QUALIFICATION <br /><br /></td>
+
+                                    <tr>
+                                        <table class="table-responsive table-striped">
+
+                                            <tr>
+                                                <td align="center"><b>Sl.No.</b></td>
+                                                <td align="center"><b>Examination</b></td>
+                                                <td align="center"><b>Board</b></td>
+                                                <td align="center"><b>Percentage</b></td>
+                                                <td align="center"><b>Year of Passing</b></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>1</td>
+                                                <td>Matric</td>
+                                                <td><input type="text" name="X_Board" maxlength="30" /></td>
+                                                <td><input type="text" name="X_Percentage" maxlength="30" /></td>
+                                                <td><input type="text" name="X_YrOfPassing" maxlength="30" /></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>2</td>
+                                                <td>Intermediate</td>
+                                                <td><input type="text" name="XII_Board" maxlength="30" /></td>
+                                                <td><input type="text" name="XII_Percentage" maxlength="30" /></td>
+                                                <td><input type="text" name="XII_YrOfPassing" maxlength="30" />
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>3</td>
+                                                <td>Graduation</td>
+                                                <td><input type="text" name="Graduation_Board" maxlength="30" /></td>
+                                                <td><input type="text" name="Graduation_Percentage" maxlength="30" />
+                                                </td>
+                                                <td><input type="text" name="Graduation_YrOfPassing" maxlength="30" />
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>4</td>
+                                                <td>Masters</td>
+                                                <td><input type="text" name="Masters_Board" maxlength="30" /></td>
+                                                <td><input type="text" name="Masters_Percentage" maxlength="30" /></td>
+                                                <td><input type="text" name="Masters_YrOfPassing" maxlength="30" /></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td></td>
+                                                <td></td>
+                                                <td align="center">(10 char max)</td>
+                                                <td align="center">(upto 2 decimal)</td>
+                                            </tr>
+                                        </table>
+
+                                    
+                                </div>
+
+
+                            </section>
+
+
+
+
+                            <h6>Professional Information</h6>
+                            <section>
+                                <h3>Skills & Experience</h3>
+                                <div class="form-group mb-4">
+                                    <label>Professional Information</label>
+                                    <select class="form-control" name="Professional_Information">
+                                        <option value="Python Developer">Python Developer</option>
+                                        <option value="It Specialist">It Specialist</option>
+                                        <option value="Web Developer">Web Developer</option>
+
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label>Experience</label>
+                                    <div class="form-check ml-3 mt-3">
+                                        <input class="form-check-input" name="Fresh" type="radio" value="Fresh" id="flexCheckDefault">
+                                        <label>Fresh</label>
+                                    </div>
+                                    <div class="form-check ml-3">
+                                        <input class="form-check-input" name="Fresh" type="radio" value="Beginer" id="flexCheckDefault">
+                                        <label>Beginer</label>
+                                    </div>
+                                    <div class="form-check ml-3">
+                                        <input class="form-check-input" name="Fresh" type="radio"  value="6 months" id="flexCheckDefault">
+                                        <label>6month</label>
+                                    </div>
+
+                                    <div class="form-check ml-3">
+                                        <input class="form-check-input" name="Fresh" type="radio" value="Less then 1 year" id="flexCheckDefault">
+                                        <label>less then 1year</label>
+                                    </div>
+                                </div>
+
+                            </section>
+                            <h6>Profile information</h6>
+                            <section>
+
+                                <div class="fallback">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <input name="file" type="file" multiple="multiple">
+                                        </div>
+                                        <div class="col-md-6 text-center">
+                                            <img src="{{url_for('static', filename = 'admin-assets/img/users/avatar.jpg')}}" alt="image" width="50" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </section>
+                            <h6>Term and condotions</h6>
+                            <section>
+                                <h3>Terms and Conditions</h3>
+                                <label class="ui-checkbox ui-checkbox-success">
+                                    <input class="required" id="acceptTerms" type="checkbox" name="acceptTerms" value="yes">
+                                    <span class="input-span"></span>I agree with the Terms and Conditions.</label>
+                            </section>
+                        </form>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+        <!-- END PAGE CONTENT-->
+        <footer class="page-footer">
+            <div class="font-13">2021 © <b>Dashboard</b> </div>
+
+
+        </footer>
+    </div>
+    </div>
+
+
+
+    <!-- CORE PLUGINS-->
+    <script src="{{url_for('static', filename = 'admin-assets/vendors/jquery/dist/jquery.min.js')}}"></script>
+    <script src="{{url_for('static', filename = 'admin-assets/vendors/popper.js/dist/umd/popper.min.js')}}"></script>
+    <script src="{{url_for('static', filename = 'admin-assets/vendors/bootstrap/dist/js/bootstrap.min.js')}}"></script>
+    <script src="{{url_for('static', filename = 'admin-assets/vendors/metisMenu/dist/metisMenu.min.js')}}"></script>
+    <script src="{{url_for('static', filename = 'admin-assets/vendors/jquery-slimscroll/jquery.slimscroll.min.js')}}"></script>
+    <script src="{{url_for('static', filename = 'admin-assets/vendors/jquery-idletimer/dist/idle-timer.min.js')}}"></script>
+    <script src="{{url_for('static', filename = 'admin-assets/vendors/toastr/toastr.min.js')}}"></script>
+    <script src="{{url_for('static', filename = 'admin-assets/vendors/jquery-validation/dist/jquery.validate.min.js')}}"></script>
+    <script src="{{url_for('static', filename = 'admin-assets/vendors/bootstrap-select/dist/js/bootstrap-select.min.js')}}"></script>
+    <!-- PAGE LEVEL PLUGINS-->
+    <script src="{{url_for('static', filename = 'admin-assets/vendors/jquery.easy-pie-chart/dist/jquery.easypiechart.min.js')}}"></script>
+    <script src="{{url_for('static', filename = 'admin-assets/vendors/jquery.steps/build/jquery.steps.min.js')}}"></script>
+    <script src="{{url_for('static', filename = 'admin-assets/vendors/dropzone/dist/min/dropzone.min.js')}}"></script>
+    <!-- CORE SCRIPTS-->
+    <script src="{{url_for('static', filename = 'admin-assets/js/app.min.js')}}"></script>
+    <!-- PAGE LEVEL SCRIPTS-->
+    <script>
+        $(function () {
+            $('#form-wizard').steps({
+                headerTag: "h6",
+                bodyTag: "section",
+                titleTemplate: '<span class="step-number">#index#</span> #title#',
+                onStepChanging: function (event, currentIndex, newIndex) {
+                    var form = $(this);
+                    // Always allow going backward even if the current step contains invalid fields!
+                    if (currentIndex > newIndex) {
+                        return true;
+                    }
+
+                    // Clean up if user went backward before
+                    if (currentIndex < newIndex) {
+                        // To remove error styles
+                        $(".body:eq(" + newIndex + ") label.error", form).remove();
+                        $(".body:eq(" + newIndex + ") .error", form).removeClass("error");
+                    }
+
+                    // Disable validation on fields that are disabled or hidden.
+                    form.validate().settings.ignore = ":disabled,:hidden";
+
+                    // Start validation; Prevent going forward if false
+                    return form.valid();
+                },
+                onFinishing: function (event, currentIndex) {
+                    var form = $(this);
+                    form.validate().settings.ignore = ":disabled";
+                    return form.valid();
+                },
+                onFinished: function (event, currentIndex) {
+                    document.getElementById("form-wizard").submit();
+                    toastr.success('Submitted!');
+                }
+            }).validate({
+                errorPlacement: function errorPlacement(error, element) {
+                    error.insertAfter(element);
+                },
+                rules: {
+                    phoneNumber: {}
+                },
+                errorClass: "help-block error",
+                highlight: function (e) {
+                    $(e).closest(".form-group").addClass("has-error")
+                },
+                unhighlight: function (e) {
+                    $(e).closest(".form-group").removeClass("has-error")
+                },
+            });
+        })
+
+        Dropzone.options.mydropzone = {
+            paramName: "file", // The name that will be used to transfer the file
+            maxFilesize: 5, // MB
+            dictDefaultMessage: '<div class="text-center mb-3"><i class="la la-cloud-upload text-primary" style="font-size:50px"></i></div> <strong>Drop files here or click to upload. </strong></br> (This is just a demo dropzone. Selected files are not actually uploaded.)',
+            init: function () {
+                this.on("addedfile", function (file) {
+                    var removeButton = Dropzone.createElement(
+                        "<a href='javascript:;'' class='btn btn-danger btn-sm btn-block'>Remove</a>"
+                        );
+                    var _this = this;
+                    removeButton.addEventListener("click", function (e) {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        _this.removeFile(file);
+                    });
+                    file.previewElement.appendChild(removeButton);
+                });
+            }
+        }
+    </script>
+
+</body>
+
+
+
+</html>

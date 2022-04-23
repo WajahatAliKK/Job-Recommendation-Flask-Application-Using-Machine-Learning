@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from admincast.com/adminca/preview/admin_1/html/form_wizard.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 06 Jan 2020 09:08:54 GMT -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <title>Dashboard</title>
+    <!-- GLOBAL MAINLY STYLES-->
+    <link href="{{url_for('static', filename = 'admin-assets/vendors/bootstrap/dist/css/bootstrap.min.css')}}" rel="stylesheet" />
+    <link href="{{url_for('static', filename = 'admin-assets/vendors/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet" />
+    <link href="{{url_for('static', filename = 'admin-assets/vendors/line-awesome/css/line-awesome.min.css')}}" rel="stylesheet" />
+    <link href="{{url_for('static', filename = 'admin-assets/vendors/themify-icons/css/themify-icons.css')}}" rel="stylesheet" />
+    <link href="{{url_for('static', filename = 'admin-assets/vendors/animate.css/animate.min.css')}}" rel="stylesheet" />
+    <link href="{{url_for('static', filename = 'admin-assets/vendors/toastr/toastr.min.css')}}" rel="stylesheet" />
+    <link href="{{url_for('static', filename = 'admin-assets/vendors/bootstrap-select/dist/css/bootstrap-select.min.css')}}" rel="stylesheet" />
+    <!-- PLUGINS STYLES-->
+    <link href="{{url_for('static', filename = 'admin-assets/vendors/dropzone/dist/min/dropzone.min.css')}}" rel="stylesheet" />
+    <link href="{{url_for('static', filename = 'admin-assets/vendors/dropzone/dist/min/basic.min.css')}}" rel="stylesheet" />
+    <link href="{{url_for('static', filename = 'admin-assets/vendors/jvectormap/jquery-jvectormap-2.0.3.css')}}" rel="stylesheet" />
+    <!-- THEME STYLES-->
+    <link href="{{url_for('static', filename = 'admin-assets/css/main.min.css')}}" rel="stylesheet" />
+    <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="{{url_for('static', filename = 'admin-assets/owlcarousel/owl.carousel.min.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename = 'admin-assets/owlcarousel/owl.theme.default.min.css')}}">
+
+</head>
+
+<body class="fixed-navbar">
+    <div class="page-wrapper">
+        <!-- START HEADER-->
+        <header class="header">
+            <div class="page-brand">
+                <a href="{{url_for('index')}}">
+                    <span class="brand">Dashboard</span>
+                    <span class="brand-mini">DC</span>
+                </a>
+            </div>
+            <div class="flexbox flex-1">
+                <!-- START TOP-LEFT TOOLBAR-->
+                <ul class="nav navbar-toolbar">
+                    <li>
+                        <a class="nav-link sidebar-toggler js-sidebar-toggler" href="javascript:;">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </a>
+                    </li>
+
+                </ul>
+                <!-- END TOP-LEFT TOOLBAR-->
+                <!-- START TOP-RIGHT TOOLBAR-->
+
+                <ul class="nav navbar-toolbar">
+
+                    <!-- <a href="Jobs_posts.html" class="btn btn-danger mr-4">Post a Job</a> -->
+
+                    <div class="dropdown dropdown-user mr-4">
+                        <a class="dropdown-toggle " data-toggle="dropdown">
+                            <span class="text-white">User</span>
+                            <img src="{{url_for('static', filename = 'admin-assets/img/users/admin-image.png')}}" alt="image" />s
+                        </a>
+
+                        <ul class="dropdown-menu mt-4">
+                            <li><a href="{{url_for('user_profile')}}">Profile</a></li>
+                            <li><a href="#">Settings</a></li>
+                            <li><a href="{{url_for('home')}}">Logout</a></li>
+                        </ul>
+                    </div>
+                </ul>
+                <!-- END TOP-RIGHT TOOLBAR-->
+            </div>
+        </header>
+        <!-- END HEADER-->
+        <!-- START SIDEBAR-->
+        <nav class="page-sidebar" id="sidebar">
+            <div id="sidebar-collapse">
+                <ul class="side-menu metismenu">
+                    <li>
+                        <a href="javascript:;"><i class="sidebar-item-icon ti-paint-roller"></i>
+                            <span class="nav-label">User Profile</span><i class="fa fa-angle-left arrow"></i></a>
+                        <ul class="nav-2-level collapse">
+                            <li>
+                                <a class="active " href="{{url_for('Uprofile')}}">Profile</a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><i class="sidebar-item-icon ti-paint-roller"></i>
+                            <span class="nav-label">Jobs</span><i class="fa fa-angle-left arrow"></i></a>
+                        <ul class="nav-2-level collapse">
+                            <li>
+                                <a class="active " href="{{url_for('jobs_list')}}">Jobs Lists</a>
+                            </li>
+
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+        <!-- END SIDEBAR-->
+        <div class="content-wrapper">
+            <!-- START PAGE CONTENT-->
+
+            <div class="page-heading">
+                <div class="user-profile">
+
+                    <div class="up-head-w" style="background-image:url({{ url_for('static', filename='admin-assets/img/users/cover.jpg') }})">
+                        <div class="up-main-info">
+                            <div class="user-avatar-w">
+                                <div class="user-avatar">
+                                    <img alt="" src="{{url_for('static', filename = 'admin-assets/img/users/admin-image.png')}}">
+
+
+                                </div>
+                            </div>
+                            <h1 class="up-header">
+
+                            </h1>
+                            <h5 class="up-sub-header">
+                                 &nbsp User
+                            </h5>
+                        </div>
+                        <svg class="decor" width="842px" height="219px" viewBox="0 0 842 219"
+                            preserveAspectRatio="xMaxYMax meet" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <g transform="translate(-381.000000, -362.000000)" fill="#FFFFFF">
+                                <path class="decor-path"
+                                    d="M1223,362 L1223,581 L381,581 C868.912802,575.666667 1149.57947,502.666667 1223,362 Z">
+                                </path>
+                            </g>
+                        </svg>
+                    </div>
+                      <div class="up-controls">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="value-pair">
+
+
+                        </div>
+                    </div>
+                    <div class="col-lg-6 text-right">
+                        <a class="btn btn-primary btn-sm" href="{{url_for('edit_profile')}}">
+                            <i class="os-icon os-icon-edit"></i>
+                            <span>Edit Profile</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+                    <div class="up-contents">
+                        <h5 class="element-header">
+                            Profile Information
+                        </h5>
+                        <div class="row mt-3">
+                            <div class="col-md-12 mt-3">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-lg table-v2 table-striped">
+                                        <thead>
+                                            <tr>
+                                                <td colspan="2"
+                                                    style="padding: .7rem 1.5rem; background:#86c232; color:#fff; font-weight: bold;">
+                                                    User ID: 15243</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td width="50%">
+                                                    <strong>Name: abc </strong>
+                                                </td>
+                                                <td width="50%">
+                                                    <strong>Email:User@abc.com </strong>
+                                                </td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- END PAGE CONTENT-->
+            <footer class="page-footer">
+                <div class="font-13">2021 © <b>Dashboard</b> </div>
+
+
+            </footer>
+        </div>
+    </div>
+
+
+
+
+    <!-- CORE PLUGINS-->
+    <script src="{{url_for('static', filename = 'admin-assets/vendors/jquery/dist/jquery.min.js')}}"></script>
+    <script src="{{url_for('static', filename = 'admin-assets/vendors/popper.js/dist/umd/popper.min.js')}}"></script>
+    <script src="{{url_for('static', filename = 'admin-assets/vendors/bootstrap/dist/js/bootstrap.min.js')}}"></script>
+    <script src="{{url_for('static', filename = 'admin-assets/vendors/metisMenu/dist/metisMenu.min.js')}}"></script>
+    <script src="{{url_for('static', filename = 'admin-assets/vendors/jquery-slimscroll/jquery.slimscroll.min.js')}}"></script>
+    <script src="{{url_for('static', filename = 'admin-assets/vendors/jquery-idletimer/dist/idle-timer.min.js')}}"></script>
+    <script src="{{url_for('static', filename = 'admin-assets/vendors/toastr/toastr.min.js')}}"></script>
+    <script src="{{url_for('static', filename = 'admin-assets/vendors/jquery-validation/dist/jquery.validate.min.js')}}"></script>
+    <script src="{{url_for('static', filename = 'admin-assets/vendors/bootstrap-select/dist/js/bootstrap-select.min.js')}}"></script>
+    <!-- PAGE LEVEL PLUGINS-->
+    <script src="{{url_for('static', filename = 'admin-assets/vendors/jquery.easy-pie-chart/dist/jquery.easypiechart.min.js')}}"></script>
+    <script src="{{url_for('static', filename = 'admin-assets/vendors/jquery.steps/build/jquery.steps.min.js')}}"></script>
+    <script src="{{url_for('static', filename = 'admin-assets/vendors/dropzone/dist/min/dropzone.min.js')}}"></script>
+    <!-- CORE SCRIPTS-->
+    <script src="{{url_for('static', filename = 'admin-assets/js/app.min.js')}}"></script>
+    <!-- PAGE LEVEL SCRIPTS-->
+    <script src="{{url_for('static', filename = 'admin-assets/js/scripts/dashboard_visitors.js')}}"></script>
+    <script src="{{url_for('static', filename = 'admin-assets/owlcarousel/owl.carousel.js')}}"></script>
+
+</body>
+
+
+
+</html>

@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from admincast.com/adminca/preview/admin_1/html/form_wizard.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 06 Jan 2020 09:08:54 GMT -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <title>Adminca bootstrap 4 &amp; angular 5 admin template, Шаблон админки | Form Wizard</title>
+    <!-- GLOBAL MAINLY STYLES-->
+    <link href="{{url_for('static', filename = 'admin-assets/vendors/bootstrap/dist/css/bootstrap.min.css')}}" rel="stylesheet" />
+    <link href="{{url_for('static', filename = 'admin-assets/vendors/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet" />
+    <link href="{{url_for('static', filename = 'admin-assets/vendors/line-awesome/css/line-awesome.min.css')}}" rel="stylesheet" />
+    <link href="{{url_for('static', filename = 'admin-assets/vendors/themify-icons/css/themify-icons.css')}}" rel="stylesheet" />
+    <link href="{{url_for('static', filename = 'admin-assets/vendors/animate.css/animate.min.css')}}" rel="stylesheet" />
+    <link href="{{url_for('static', filename = 'admin-assets/vendors/toastr/toastr.min.css')}}" rel="stylesheet" />
+    <link href="{{url_for('static', filename = 'admin-assets/vendors/bootstrap-select/dist/css/bootstrap-select.min.css')}}" rel="stylesheet" />
+    <link href="{{url_for('static', filename = 'admin-assets/vendors/dataTables/datatables.min.css')}}" rel="stylesheet" />
+    <!-- PLUGINS STYLES-->
+    <!-- THEME STYLES-->
+    <link href="{{url_for('static', filename = 'admin-assets/css/main.min.css')}}" rel="stylesheet" />
+    <!-- PAGE LEVEL STYLES-->
+</head>
+
+<body class="fixed-navbar">
+    <div class="page-wrapper">
+        <!-- START HEADER-->
+        <header class="header">
+            <div class="page-brand">
+                <a href="{{url_for('index')}}">
+                    <span class="brand">Dashboard</span>
+                    <span class="brand-mini">AC</span>
+                </a>
+            </div>
+            <div class="flexbox flex-1">
+                <!-- START TOP-LEFT TOOLBAR-->
+                <ul class="nav navbar-toolbar">
+                    <li>
+                        <a class="nav-link sidebar-toggler js-sidebar-toggler" href="javascript:;">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </a>
+                    </li>
+
+                </ul>
+                <!-- END TOP-LEFT TOOLBAR-->
+                <!-- START TOP-RIGHT TOOLBAR-->
+                <ul class="nav navbar-toolbar">
+
+                    <a href="{{ url_for('JPost') }}" class="btn btn-danger mr-4">Post a Job</a>
+
+                    <div class="dropdown dropdown-user mr-4">
+                        <a class="dropdown-toggle " data-toggle="dropdown">
+                            <span class="text-white">Super User</span>
+                            <img src="{{url_for('static', filename = 'admin-assets/img/users/admin-image.png')}}" alt="image" />
+                        </a>
+
+                        <ul class="dropdown-menu mt-4">
+                            <li><a href="{{url_for('user_profile')}}">Profile</a></li>
+                            <li><a href="#">Settings</a></li>
+                            <li><a href="{{url_for('home')}}">Logout</a></li>
+                        </ul>
+                    </div>
+                </ul>
+                <!-- END TOP-RIGHT TOOLBAR-->
+            </div>
+        </header>
+        <!-- END HEADER-->
+        <!-- START SIDEBAR-->
+        <nav class="page-sidebar" id="sidebar">
+            <div id="sidebar-collapse">
+                <ul class="side-menu metismenu">
+                    <li>
+                        <a href="javascript:;"><i class="sidebar-item-icon ti-paint-roller"></i>
+                            <span class="nav-label">Menu list</span><i class="fa fa-angle-left arrow"></i></a>
+
+                    <li>
+                        <a class="active br-primary" href="index.html">Dashboard</a>
+                    </li>
+
+                </ul>
+                </li>
+                </ul>
+
+            </div>
+        </nav>
+        <!-- END SIDEBAR-->
+        <div class="content-wrapper">
+            <!-- START PAGE CONTENT-->
+            <div class="page-heading">
+                <div class="user-profile">
+
+                    <div class="up-head-w" style="background-image:url({{ url_for('static', filename='admin-assets/img/users/cover.jpg') }})">
+                        <div class="up-main-info">
+                            <div class="user-avatar-w">
+                                <div class="user-avatar">
+                                    <img alt="" src="{{url_for('static', filename = 'admin-assets/img/users/admin-image.png')}}">
+
+
+                                </div>
+                            </div>
+                            <h1 class="up-header">
+
+                            </h1>
+                            <h5 class="up-sub-header">
+                                Super User
+                            </h5>
+                        </div>
+                        <svg class="decor" width="842px" height="219px" viewBox="0 0 842 219"
+                            preserveAspectRatio="xMaxYMax meet" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <g transform="translate(-381.000000, -362.000000)" fill="#FFFFFF">
+                                <path class="decor-path"
+                                    d="M1223,362 L1223,581 L381,581 C868.912802,575.666667 1149.57947,502.666667 1223,362 Z">
+                                </path>
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="up-controls">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="value-pair">
+
+
+                                </div>
+                            </div>
+                            <div class="col-lg-6 text-right">
+                                <a class="btn btn-primary btn-sm" href="{{url_for('edit_profile')}}">
+                                    <i class="os-icon os-icon-edit"></i>
+                                    <span>Edit Profile</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="up-contents">
+                        <h5 class="element-header">
+                            Profile Information
+                        </h5>
+                        <div class="row mt-3">
+                            <div class="col-md-12 mt-3">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-lg table-v2 table-striped">
+                                        <thead>
+                                            <tr>
+                                                <td colspan="2"
+                                                    style="padding: .7rem 1.5rem; background:#86c232; color:#fff; font-weight: bold;">
+                                                    Admin ID: {{user[0][0]}}</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td width="50%">
+                                                    <strong>Name: {{user[0][1]}} </strong>
+                                                </td>
+                                                <td width="50%">
+                                                    <strong>Email:{{user[0][3]}} </strong>
+                                                </td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <h5 class="element-header mt-4">
+                            Company Jobs
+                        </h5>
+                        <div class="page-content fade-in-up">
+                            <div class="ibox">
+                                <div class="ibox-body">
+
+                                    <div class="flexbox mb-4">
+                                        <div class="flexbox">
+                                            <label class="mb-0 mr-2">Type:</label>
+                                            <select class="selectpicker show-tick form-control" id="type-filter"
+                                                title="Please select" data-style="btn-solid" data-width="150px">
+                                                <option value="">All</option>
+                                                <option>Shipped</option>
+                                                <option>Completed</option>
+                                                <option>Pending</option>
+                                                <option>Canceled</option>
+                                            </select>
+                                        </div>
+                                        <div class="input-group-icon input-group-icon-left mr-3">
+                                            <span class="input-icon input-icon-right font-16"><i
+                                                    class="ti-search"></i></span>
+                                            <input class="form-control form-control-rounded form-control-solid"
+                                                id="key-search" type="text" placeholder="Search ...">
+                                        </div>
+                                    </div>
+                                    <div class="table-responsive row">
+                                        <table class="table table-bordered table-hover" id="datatable">
+                                            <thead class="thead-default thead-lg">
+                                                <tr>
+                                                    <th>#</th>
+                                                    <th>Job ID</th>
+                                                    <th>Job Location</th>
+                                                    <th>Experience</th>
+                                                    <th>Job Title</th>
+                                                    <th>Salary</th>
+                                                    <th>Deadline Date</th>
+<!--                                                    <th class="no-sort"></th>-->
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                            {% for jo in range(jobs|length) %}
+                                                <tr>
+                                                    <td>{{jo+1}}</td>
+                                                    <td>
+                                                        <a href="javascript:;">#{{jobs[jo][0]}}</a>
+                                                    </td>
+                                                    <td>{{jobs[jo][2]}}</td>
+                                                    <td>{{jobs[jo][3]}}</td>
+                                                    <td>
+                                                        <span class="badge badge-success badge-pill">{{jobs[jo][1]}}</span>
+                                                    </td>
+                                                    <td>{{jobs[jo][5]}}-{{jobs[jo][6]}}</td>
+                                                    <td>{{jobs[jo][4]}}</td>
+<!--                                                    <td>-->
+<!--                                                        <a class="text-muted font-16" href="javascript:;"><i-->
+<!--                                                                class="ti-trash"></i></a>-->
+<!--                                                    </td>-->
+                                                </tr>
+                                            {% endfor %}
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- END PAGE CONTENT-->
+            <footer class="page-footer">
+                <div class="font-13">2021 © <b>Dashboard</b> </div>
+
+                <div class="to-top"><i class="fa fa-angle-double-up"></i></div>
+            </footer>
+        </div>
+    </div>
+
+
+
+
+    <!-- CORE PLUGINS-->
+    <script src="{{url_for('static', filename = 'admin-assets/vendors/jquery/dist/jquery.min.js')}}"></script>
+    <script src="{{url_for('static', filename = 'admin-assets/vendors/popper.js/dist/umd/popper.min.js')}}"></script>
+    <script src="{{url_for('static', filename = 'admin-assets/vendors/bootstrap/dist/js/bootstrap.min.js')}}"></script>
+    <script src="{{url_for('static', filename = 'admin-assets/vendors/metisMenu/dist/metisMenu.min.js')}}"></script>
+    <script src="{{url_for('static', filename = 'admin-assets/vendors/jquery-slimscroll/jquery.slimscroll.min.js')}}"></script>
+    <script src="{{url_for('static', filename = 'admin-assets/vendors/jquery-idletimer/dist/idle-timer.min.js')}}"></script>
+    <script src="{{url_for('static', filename = 'admin-assets/vendors/toastr/toastr.min.js')}}"></script>
+    <script src="{{url_for('static', filename = 'admin-assets/vendors/jquery-validation/dist/jquery.validate.min.js')}}"></script>
+    <script src="{{url_for('static', filename = 'admin-assets/vendors/bootstrap-select/dist/js/bootstrap-select.min.js')}}"></script>
+    <!-- PAGE LEVEL PLUGINS-->
+    <script src="{{url_for('static', filename = 'admin-assets/vendors/jquery.steps/build/jquery.steps.min.js')}}"></script>
+    <script src="{{url_for('static', filename = 'admin-assets/vendors/dataTables/datatables.min.js')}}"></script>
+    <!-- CORE SCRIPTS-->
+    <script src="{{url_for('static', filename = 'admin-assets/js/app.min.js')}}"></script>
+    <!-- PAGE LEVEL SCRIPTS-->
+    <script>
+        $(function () {
+            $('#datatable').DataTable({
+                pageLength: 10,
+                fixedHeader: true,
+                responsive: true,
+                "sDom": 'rtip',
+                columnDefs: [{
+                    targets: 'no-sort',
+                    orderable: false
+                }]
+            });
+
+            var table = $('#datatable').DataTable();
+            $('#key-search').on('keyup', function () {
+                table.search(this.value).draw();
+            });
+            $('#type-filter').on('change', function () {
+                table.column(4).search($(this).val()).draw();
+            });
+        });
+    </script>
+</body>
+
+
+<!-- Mirrored from admincast.com/adminca/preview/admin_1/html/form_wizard.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 06 Jan 2020 09:08:54 GMT -->
+
+</html>-

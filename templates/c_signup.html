@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sign Up</title>
+
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="{{url_for('static', filename = 'assets/css/style.css')}}" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css" rel="stylesheet" type="text/css" />
+    <link href="{{url_for('static', filename = 'assets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="c_signup-content">
+            <div class="signup-form col-md-11">
+                <div class="signup_body">
+                    <h3 class="text-secondary text-center font-weight-bold">Complete Sign up</h3>
+
+                    <form method="post" action="/login">
+
+                        <div class="cutom-group">
+                            <label  class="ml-2">First Name</label>
+                            <input class="form-control" type="text" placeholder="Enter your first name" name="fname" value="" required>
+
+                        </div>
+                        <div class="cutom-group ">
+                            <label  class="ml-2">Last Name</label>
+                            <input class="form-control" type="text" placeholder="Enter your last name" value="" name="lname" required>
+
+                        </div>
+                        <div class="cutom-group">
+                            <label  class="ml-2">Phone Number</label>
+                            <input class="form-control" id="mobile" placeholder="Enter User Mobile no" name="phone" value="" required>
+
+
+                            <div class="cutom-group">
+                                <label  class="ml-2">Password</label>
+                                <input id="password-field" type="password" class="form-control" name="pass" placeholder="Enter your password" value="" required>
+                                <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+                            </div>
+                            <div class="cutom-group">
+                                <label>Date Of Birth: </label>
+                                <div id="datepicker" class="input-group date" data-date-format="yyyy-mm-dd">
+                                    <input class="form-control" type="text" name="date" />
+                                    <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+                                </div>
+
+                            </div>
+                            <div class="row mt-3 ml-1">
+                                <div class="col-sm-6">
+                                    <label class="radio-inline"><input type="radio" name="optradio" value="company"> <span class="ml-1">For Company</span></label>
+                                </div>
+                                <div class="col-sm-6">
+                                    <label class="radio-inline"><input type="radio" name="optradio" value="user"><span class="ml-1">For User</span></label>
+                                </div>
+                            </div>
+
+                            <div class="cutom-group term-and-condition">
+                                <input type="checkbox" checked="checked" name="sameadr"> <span class="text-secondary">I agree the <a href="#" class="text-success">term and condition</a></span>
+                            </div>
+
+                            <button class="btn btn-block" onclick="window.location.href={{url_for('home')}}">Join</button>
+                        </div>
+                    </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
+        <script src="{{url_for('static', filename = 'assets/js/custom/phone.js')}}"></script>
+
+</body>
+
+</html>
